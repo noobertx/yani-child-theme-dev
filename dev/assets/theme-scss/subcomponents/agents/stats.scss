@@ -1,0 +1,131 @@
+.agent-stats-wrap,
+.agent-profile-wrap,
+.agent-bio-wrap {
+  padding: 40px;
+  background-color: #fff;
+}
+@media (max-width: 767.98px) {
+  .agent-stats-wrap,
+.agent-profile-wrap,
+.agent-bio-wrap {
+    padding: 30px;
+  }
+}
+
+.agent-profile-wrap h1 {
+  font-size: 24px;
+  line-height: 34px;
+}
+.agent-profile-wrap .rating-score-wrap {
+  padding-left: 0;
+}
+.agent-profile-wrap .rating-score-text {
+  margin-right: 10px;
+}
+.agent-profile-wrap .stars {
+  margin-right: 10px;
+}
+.agent-profile-wrap .agent-image {
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .agent-profile-wrap .agent-image {
+    margin-bottom: 20px;
+  }
+}
+
+.agent-company-logo {
+  max-width: 150px;
+  background-color: #fff;
+  padding: 5px 10px 0 0;
+}
+
+.agent-profile-top-wrap {
+  border-bottom: 1px solid #dce0e0;
+}
+
+.agent-profile-content li {
+  margin-bottom: 5px;
+}
+
+.agent-profile-buttons .btn {
+  min-width: 150px;
+  margin-right: 10px;
+}
+@media (max-width: 767.98px) {
+  .agent-profile-buttons .btn {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .agent-profile-chart-wrap {
+    margin-bottom: 30px;
+  }
+}
+.agent-profile-chart-wrap h2 {
+  font-size: 16px;
+  line-height: 26px;
+}
+.agent-profile-chart {
+  margin-right: 10px;
+  top: -6px;
+}
+
+.agent-bio-wrap h2 {
+  font-size: 18px;
+}
+.agent-contacts-wrap {
+  padding: 30px;
+  background-color: #fff;
+}
+.agent-contacts-wrap li {
+  clear: both;
+  border-bottom: 1px solid #dce0e0;
+  line-height: 35px;
+}
+.agent-contacts-wrap p {
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: #636363;
+  text-align: center;
+}
+.agent-contacts-wrap .agent-social-media {
+  font-size: 22px;
+  text-align: center;
+}
+.agent-contacts-wrap .agent-social-media span {
+  margin-right: 5px;
+}
+
+.sidebar-wrap .agent-contacts-wrap .agent-social-media {
+  font-size: 16px;
+}
+
+.agent-nav-wrap {
+  margin: 50px 0;
+  text-align: center;
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.agent-nav-wrap .nav-pills .nav-link {
+  border: 1px solid;
+  margin: 0 5px;
+  padding: 15px 0;
+}
+.agent-nav-wrap .nav-pills .nav-link.active {
+  color: #fff !important;
+}
+
+.agent-profile-header {
+  margin-bottom: 9px;
+}
+
+.agent-verified-badge {
+  font-size: 10px;
+  font-weight: 400;
+  top: -3px;
+  padding: 5px 7px 4px 7px;
+  text-transform: uppercase;
+}

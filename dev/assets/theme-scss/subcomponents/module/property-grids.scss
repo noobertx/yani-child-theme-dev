@@ -1,0 +1,62 @@
+.property-grid-item {
+  border-left: 1px solid #f8f8f8;
+  border-bottom: 1px solid #f8f8f8;
+  height: 290px;
+  background-size: cover;
+  background-position: center center;
+  width: 25%;
+}
+@media (max-width: 767.98px) {
+  .property-grid-item {
+    width: 100% !important;
+  }
+}
+.property-grid-item .item-inner-wrap {
+  padding: 20px;
+}
+.property-grid-item .item-title {
+  max-width: 80%;
+  margin-bottom: 10px;
+}
+
+.property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(4n+1), .property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(4n+2) {
+  width: 50%;
+}
+.property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(3n), .property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(4n), .property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(5n), .property-grids-module-v1 .property-grids-module-row .property-grid-item:nth-child(6n) {
+  width: 25%;
+}
+@media (max-width: 991.98px) {
+  .property-grids-module-v1 .property-grids-module-row .property-grid-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .property-grids-module-v2 .property-grids-module-row .property-grid-item {
+    width: 50%;
+  }
+}
+.property-grids-module-v2 .property-grids-module-row .property-grid-item:nth-child(1), .property-grids-module-v2 .property-grids-module-row .property-grid-item:nth-child(6) {
+  width: 50%;
+}
+@media (max-width: 991.98px) {
+  .property-grids-module-v2 .property-grids-module-row .property-grid-item:nth-child(1), .property-grids-module-v2 .property-grids-module-row .property-grid-item:nth-child(6) {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .property-grids-module-v3 .property-grids-module-row .property-grid-item {
+    width: 50%;
+  }
+}
+.property-grids-module-v3 .property-grids-module-row .property-grid-item:nth-child(1), .property-grids-module-v3 .property-grids-module-row .property-grid-item:nth-child(2), .property-grids-module-v3 .property-grids-module-row .property-grid-item:nth-child(3) {
+  width: calc(100% / 3);
+}
+
+.property-grids-module-v4 .property-grids-module-row .property-grid-item:nth-child(1), .property-grids-module-v4 .property-grids-module-row .property-grid-item:nth-child(4) {
+  width: 60%;
+}
+.property-grids-module-v4 .property-grids-module-row .property-grid-item:nth-child(2), .property-grids-module-v4 .property-grids-module-row .property-grid-item:nth-child(3) {
+  width: 40%;
+}

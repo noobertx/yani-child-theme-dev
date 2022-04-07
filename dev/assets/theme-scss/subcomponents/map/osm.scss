@@ -1,0 +1,20 @@
+.leaflet-popup {
+  background-color: #fff;
+}
+.leaflet-popup .map-info-window .item-header {
+  padding: 0;
+}
+.leaflet-popup .map-info-window .item-address {
+  margin-bottom: 0;
+}
+.leaflet-popup .map-info-window .item-body {
+  padding: 10px 10px 0 10px;
+}
+
+.leaflet-popup-tip-container {
+  bottom: -20px;
+}
+
+#yani-properties-map .leaflet-control-container {
+  display: none;
+}

@@ -1,0 +1,13 @@
+.item-tool-dropdown-menu {
+  border-color: transparent;
+  background-color: rgba(0, 0, 0, 0.85);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.item-tool-dropdown-menu .dropdown-item {
+  padding: 10px;
+  color: #fff;
+}
+.item-tool-dropdown-menu .dropdown-item:hover {
+  background-color: black;
+}

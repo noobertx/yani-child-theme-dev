@@ -1,0 +1,91 @@
+@media (max-width: 767.98px) {
+  .testimonials-module-slider-v2 {
+    overflow: hidden;
+  }
+}
+
+.property-carousel-buttons-wrap {
+  height: 40px;
+  text-align: right;
+}
+.property-carousel-buttons-wrap .slick-prev,
+.property-carousel-buttons-wrap .slick-next,
+.property-carousel-buttons-wrap .btn-view-all {
+  left: auto;
+  right: auto;
+  top: auto;
+  bottom: auto;
+  font-weight: 300;
+  padding: 0 10px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 28px;
+  width: auto;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+.testimonials-slider-wrap-v2 .testimonial-item,
+.agents-slider-wrap .testimonial-item,
+.partners-slider-wrap .testimonial-item {
+  margin: 0 15px;
+}
+
+.agents-module-slider .agent-item:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+}
+
+.agents-module-slider .slick-list {
+  border-left: 1px solid #dce0e0;
+}
+
+.blog-posts-slider-wrap {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.blog-posts-slider-wrap .blog-posts-slide-wrap {
+  padding: 0 5px;
+}
+
+.property-carousel-module {
+  overflow: hidden;
+}
+@media (max-width: 767.98px) {
+  .property-carousel-module .grid-view .item-listing-wrap {
+    float: left;
+  }
+}
+
+.property-carousel-module-v1 .grid-view {
+  margin-right: 0;
+  margin-left: 0;
+}
+.property-carousel-module-v1 .grid-view .item-listing-wrap {
+  padding-left: 0;
+  padding-right: 0;
+}
+.property-carousel-module-v1 .item-listing-wrap-v3 {
+  margin-bottom: 0 !important;
+  margin-right: 1px;
+  margin-left: 1px;
+}
+
+.property-carousel-module-v1-4cols .item-wrap-outside,
+.property-carousel-module-v1-5cols .item-wrap-outside {
+  text-align: center;
+}
+.property-carousel-module-v1-4cols .item-wrap .item-price-wrap,
+.property-carousel-module-v1-5cols .item-wrap .item-price-wrap {
+  left: 20px;
+  bottom: 15px;
+}
+.property-carousel-module-v1-4cols .item-wrap .labels-wrap,
+.property-carousel-module-v1-5cols .item-wrap .labels-wrap {
+  bottom: auto;
+  top: 15px;
+  right: 20px;
+}

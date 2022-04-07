@@ -1,0 +1,532 @@
+.btn-facebook {
+  color: #506dab;
+}
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active {
+  color: #48629a !important;
+}
+
+.btn-twitter {
+  color: #00aced;
+}
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active {
+  color: #0099d4 !important;
+}
+
+.btn-pinterest {
+  color: #cb2027;
+}
+.btn-pinterest:hover, .btn-pinterest:focus, .btn-pinterest:active {
+  color: #b51d23 !important;
+}
+
+.btn-instagram {
+  color: #517fa4;
+}
+.btn-instagram:hover, .btn-instagram:focus, .btn-instagram:active {
+  color: #497293 !important;
+}
+
+.btn-google-plus {
+  color: #dd4b39;
+}
+.btn-google-plus:hover, .btn-google-plus:focus, .btn-google-plus:active {
+  color: #d73925 !important;
+}
+
+.btn-linkedin {
+  color: #007bb6;
+}
+.btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active {
+  color: #006a9d !important;
+}
+
+.btn-youtube {
+  color: #bb0000;
+}
+.btn-youtube:hover, .btn-youtube:focus, .btn-youtube:active {
+  color: #a20000 !important;
+}
+
+.btn-dribbble {
+  color: #ea4c89;
+}
+.btn-dribbble:hover, .btn-dribbble:focus, .btn-dribbble:active {
+  color: #e7357a !important;
+}
+
+.btn-foursquare {
+  color: #0072b1;
+}
+.btn-foursquare:hover, .btn-foursquare:focus, .btn-foursquare:active {
+  color: #006298 !important;
+}
+
+.btn-flickr {
+  color: #ff0084;
+}
+.btn-flickr:hover, .btn-flickr:focus, .btn-flickr:active {
+  color: #e60077 !important;
+}
+
+.btn-vimeo {
+  color: #aad450;
+}
+.btn-vimeo:hover, .btn-vimeo:focus, .btn-vimeo:active {
+  color: #a0cf3c !important;
+}
+
+.btn-tumblr {
+  color: #32506d;
+}
+.btn-tumblr:hover, .btn-tumblr:focus, .btn-tumblr:active {
+  color: #2a435c !important;
+}
+
+.btn-rss {
+  color: #FF6600;
+}
+.btn-rss:hover, .btn-rss:focus, .btn-rss:active {
+  color: #e65c00 !important;
+}
+
+.btn-email {
+  color: #ccc;
+}
+.btn-email:hover, .btn-email:focus, .btn-email:active {
+  color: #bfbfbf !important;
+}
+
+.btn-apple {
+  color: #999;
+}
+.btn-apple:hover, .btn-apple:focus, .btn-apple:active {
+  color: #8c8c8c !important;
+}
+
+.btn-android {
+  color: #A4C639;
+}
+.btn-android:hover, .btn-android:focus, .btn-android:active {
+  color: #94b233 !important;
+}
+
+.btn-windows {
+  color: #2672EC;
+}
+.btn-windows:hover, .btn-windows:focus, .btn-windows:active {
+  color: #1464e4 !important;
+}
+
+.btn-bg-facebook {
+  position: relative;
+}
+.btn-bg-facebook:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #506dab;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-facebook:hover, .btn-bg-facebook:focus, .btn-bg-facebook:active {
+  color: #fff !important;
+}
+.btn-bg-facebook:hover:before, .btn-bg-facebook:focus:before, .btn-bg-facebook:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-twitter {
+  position: relative;
+}
+.btn-bg-twitter:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #00aced;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-twitter:hover, .btn-bg-twitter:focus, .btn-bg-twitter:active {
+  color: #fff !important;
+}
+.btn-bg-twitter:hover:before, .btn-bg-twitter:focus:before, .btn-bg-twitter:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-pinterest {
+  position: relative;
+}
+.btn-bg-pinterest:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #cb2027;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-pinterest:hover, .btn-bg-pinterest:focus, .btn-bg-pinterest:active {
+  color: #fff !important;
+}
+.btn-bg-pinterest:hover:before, .btn-bg-pinterest:focus:before, .btn-bg-pinterest:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-instagram {
+  position: relative;
+}
+.btn-bg-instagram:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #517fa4;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-instagram:hover, .btn-bg-instagram:focus, .btn-bg-instagram:active {
+  color: #fff !important;
+}
+.btn-bg-instagram:hover:before, .btn-bg-instagram:focus:before, .btn-bg-instagram:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-google-plus {
+  position: relative;
+}
+.btn-bg-google-plus:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #dd4b39;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-google-plus:hover, .btn-bg-google-plus:focus, .btn-bg-google-plus:active {
+  color: #fff !important;
+}
+.btn-bg-google-plus:hover:before, .btn-bg-google-plus:focus:before, .btn-bg-google-plus:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-linkedin {
+  position: relative;
+}
+.btn-bg-linkedin:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #007bb6;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-linkedin:hover, .btn-bg-linkedin:focus, .btn-bg-linkedin:active {
+  color: #fff !important;
+}
+.btn-bg-linkedin:hover:before, .btn-bg-linkedin:focus:before, .btn-bg-linkedin:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-youtube {
+  position: relative;
+}
+.btn-bg-youtube:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #bb0000;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-youtube:hover, .btn-bg-youtube:focus, .btn-bg-youtube:active {
+  color: #fff !important;
+}
+.btn-bg-youtube:hover:before, .btn-bg-youtube:focus:before, .btn-bg-youtube:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-dribbble {
+  position: relative;
+}
+.btn-bg-dribbble:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #ea4c89;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-dribbble:hover, .btn-bg-dribbble:focus, .btn-bg-dribbble:active {
+  color: #fff !important;
+}
+.btn-bg-dribbble:hover:before, .btn-bg-dribbble:focus:before, .btn-bg-dribbble:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-foursquare {
+  position: relative;
+}
+.btn-bg-foursquare:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #0072b1;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-foursquare:hover, .btn-bg-foursquare:focus, .btn-bg-foursquare:active {
+  color: #fff !important;
+}
+.btn-bg-foursquare:hover:before, .btn-bg-foursquare:focus:before, .btn-bg-foursquare:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-flickr {
+  position: relative;
+}
+.btn-bg-flickr:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #ff0084;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-flickr:hover, .btn-bg-flickr:focus, .btn-bg-flickr:active {
+  color: #fff !important;
+}
+.btn-bg-flickr:hover:before, .btn-bg-flickr:focus:before, .btn-bg-flickr:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-vimeo {
+  position: relative;
+}
+.btn-bg-vimeo:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #aad450;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-vimeo:hover, .btn-bg-vimeo:focus, .btn-bg-vimeo:active {
+  color: #fff !important;
+}
+.btn-bg-vimeo:hover:before, .btn-bg-vimeo:focus:before, .btn-bg-vimeo:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-tumblr {
+  position: relative;
+}
+.btn-bg-tumblr:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #32506d;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-tumblr:hover, .btn-bg-tumblr:focus, .btn-bg-tumblr:active {
+  color: #fff !important;
+}
+.btn-bg-tumblr:hover:before, .btn-bg-tumblr:focus:before, .btn-bg-tumblr:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-rss {
+  position: relative;
+}
+.btn-bg-rss:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #FF6600;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-rss:hover, .btn-bg-rss:focus, .btn-bg-rss:active {
+  color: #fff !important;
+}
+.btn-bg-rss:hover:before, .btn-bg-rss:focus:before, .btn-bg-rss:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-email {
+  position: relative;
+}
+.btn-bg-email:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #ccc;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-email:hover, .btn-bg-email:focus, .btn-bg-email:active {
+  color: #fff !important;
+}
+.btn-bg-email:hover:before, .btn-bg-email:focus:before, .btn-bg-email:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-apple {
+  position: relative;
+}
+.btn-bg-apple:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #999;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-apple:hover, .btn-bg-apple:focus, .btn-bg-apple:active {
+  color: #fff !important;
+}
+.btn-bg-apple:hover:before, .btn-bg-apple:focus:before, .btn-bg-apple:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-android {
+  position: relative;
+}
+.btn-bg-android:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #A4C639;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-android:hover, .btn-bg-android:focus, .btn-bg-android:active {
+  color: #fff !important;
+}
+.btn-bg-android:hover:before, .btn-bg-android:focus:before, .btn-bg-android:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-bg-windows {
+  position: relative;
+}
+.btn-bg-windows:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: #2672EC;
+  left: 49%;
+  top: 49%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.btn-bg-windows:hover, .btn-bg-windows:focus, .btn-bg-windows:active {
+  color: #fff !important;
+}
+.btn-bg-windows:hover:before, .btn-bg-windows:focus:before, .btn-bg-windows:active:before {
+  width: 100%;
+  height: 100%;
+}
+
+.social-icons a {
+  width: 45px;
+  height: 45px;
+  font-size: 16px;
+  line-height: 45px;
+  text-align: center;
+}
+@media (max-width: 767.98px) {
+  .social-icons a {
+    width: 40px;
+  }
+}
+.social-icons i {
+  z-index: 1;
+}
+
+.social-round a {
+  border-radius: 50%;
+}
+.social-round a:before {
+  border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+.agent-module {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.agent-item,
+.text-with-icon-item-v1 {
+  padding: 35px;
+  background-color: #fff;
+  margin-left: 1px;
+  margin-bottom: -1px;
+  text-align: center;
+}
+.agent-item:hover,
+.text-with-icon-item-v1:hover {
+  -webkit-box-shadow: 0 70px 70px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 70px 70px rgba(0, 0, 0, 0.2);
+  -webkit-transform: translate(0, -10px);
+      -ms-transform: translate(0, -10px);
+          transform: translate(0, -10px);
+}
+
+.agent-body {
+  padding: 20px 0;
+  color: #636363;
+}

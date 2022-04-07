@@ -1,0 +1,28 @@
+.property-overview-wrap ul li {
+  color: #5c6872;
+  white-space: nowrap;
+}
+.property-overview-wrap ul .property-overview-type {
+  top: -2px;
+}
+.property-overview-wrap ul .property-overview-item {
+  font-size: 16px;
+}
+@media (max-width: 767.98px) {
+  .property-overview-wrap .property-overview-data {
+    display: block !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .property-overview-wrap .property-overview-data .flex-grow-1 {
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .property-overview-wrap .property-overview-data .flex-fill {
+    width: calc(100% / 2.1);
+    display: inline-block;
+    padding: 15px 0 0;
+  }
+}

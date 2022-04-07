@@ -1,0 +1,10 @@
+.property-grid-item .item-wrap, .deals-table tfoot td:not(.total-deals), .item-tool > span span, .control__indicator, .btn-success-outlined {
+  background-color: transparent;
+}
+
+.bootstrap-select .dropdown-item.active,
+.bootstrap-select .dropdown-item:active, .btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show > .btn-light.dropdown-toggle, .listing-tabs .nav-tabs .nav-link.active, .item-parallax-wrap, .item-footer, .item-wrap, .property-slider-item, .advanced-search-banner-wrap, .control__indicator, .form-control .btn {
+  background-color: #fff;
+}

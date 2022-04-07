@@ -1,0 +1,22 @@
+@media (min-width: 992px) {
+  .grid-view-3-cols.grid-view .item-listing-wrap {
+    width: calc(100% / 3);
+    -ms-flex-preferred-size: calc(100% / 3);
+        flex-basis: calc(100% / 3);
+  }
+}
+@media (min-width: 992px) {
+  .grid-view-3-cols.list-view .item-listing-wrap {
+    width: 100%;
+  }
+}
+
+/* listing - 4 cols
+/* ----------------------------------------------------------- */
+@media (min-width: 992px) {
+  .grid-view-4-cols:not(.list-view) .item-listing-wrap {
+    width: calc(100% / 4);
+    -ms-flex-preferred-size: calc(100% / 4);
+        flex-basis: calc(100% / 4);
+  }
+}

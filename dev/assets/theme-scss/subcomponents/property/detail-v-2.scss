@@ -1,0 +1,90 @@
+.property-detail-v2 .page-label-wrap {
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: auto;
+}
+.property-detail-v2 .page-label-wrap.page-title-wrap {
+  z-index: 0;
+}
+.property-detail-v2 .page-label-wrap .labels-wrap {
+  display: inline-block;
+}
+.property-detail-v2 .page-title-wrap {
+  z-index: 2;
+}
+.property-detail-v2 .page-title-wrap .labels-wrap {
+  top: 0;
+}
+.property-detail-v2 #pills-gallery,
+.property-detail-v2 #pills-map,
+.property-detail-v2 #pills-street-view {
+  height: 610px;
+}
+.property-detail-v2 #pills-gallery {
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+}
+.property-detail-v2 .breadcrumb *,
+.property-detail-v2 .breadcrumb-item + .breadcrumb-item::before,
+.property-detail-v2 .page-title,
+.property-detail-v2 .page-title-wrap .item-price-wrap .item-price,
+.property-detail-v2 .page-title-wrap .item-price-wrap .item-sub-price,
+.property-detail-v2 .page-title-wrap .item-address {
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .property-detail-v2 .page-title {
+    color: #000;
+  }
+}
+.property-detail-v2 .page-title-wrap .item-tool span {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.property-detail-v2 .page-title-wrap .item-tool span:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: #fff;
+}
+.property-detail-v2 #pills-gallery:before {
+  content: "";
+  opacity: 1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), color-stop(0%, rgba(0, 0, 0, 0)), color-stop(50%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.75)));
+  background-image: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%);
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.75) 100%);
+}
+
+/* property v3 v4 header
+/* ------------------------------------------------------------------------ */
+@media (max-width: 767.98px) {
+  .property-detail-v3 .top-gallery-section,
+.property-detail-v4 .top-gallery-section {
+    position: absolute;
+  }
+}
+.property-detail-v3 #pills-map,
+.property-detail-v3 #pills-street-view,
+.property-detail-v4 #pills-map,
+.property-detail-v4 #pills-street-view {
+  height: 664px;
+}
+.property-detail-v3 .map-next-prev-actions,
+.property-detail-v4 .map-next-prev-actions {
+  top: auto;
+  right: auto;
+  bottom: 20px;
+  left: 20px;
+}
+
+.property-detail-v3 .cS-hidden {
+  opacity: 1;
+  max-height: 500px;
+  height: auto;
+}
+
+.property-detail-v4 .cS-hidden {
+  opacity: 1;
+  max-height: 750px;
+  height: auto;
+}

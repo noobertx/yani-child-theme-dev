@@ -1,0 +1,17 @@
+.blog-post-image-widget {
+  margin-right: 20px;
+  min-width: 70px;
+}
+@media (max-width: 991.98px) {
+  .blog-post-image-widget {
+    width: 90px;
+  }
+}
+
+.blog-post-content-widget {
+  color: #636363;
+}
+.blog-post-content-widget h4 {
+  font-size: 14px;
+  line-height: 24px;
+}

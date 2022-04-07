@@ -1,0 +1,54 @@
+
+
+/* slideout plugin
+/* ------------------------------------------------------------------------ */
+@media (max-width: 991.98px) {
+  .slideout-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    width: 256px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    display: none;
+    // margin-bottom: 71px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slideout-menu-left {
+    left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slideout-menu-right {
+    right: 0;
+    left: auto;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slideout-panel {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .slideout-open .slideout-menu-right.open,
+.slideout-open .slideout-menu-left.open {
+    display: block;
+  }
+}

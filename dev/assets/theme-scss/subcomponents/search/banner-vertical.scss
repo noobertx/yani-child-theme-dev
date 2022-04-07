@@ -1,0 +1,29 @@
+.search-banner-vertical-wrap {
+  max-width: 400px;
+  padding: 20px;
+}
+.search-banner-vertical-wrap .flex-search {
+  padding-right: 0;
+}
+.search-banner-vertical-wrap .form-group {
+  margin-bottom: 10px;
+}
+@media (max-width: 767.98px) {
+  .search-banner-vertical-wrap {
+    margin: 0 auto;
+  }
+}
+
+.vertical-search-wrap .banner-caption {
+  text-align: left;
+  padding-left: 10%;
+}
+@media (max-width: 767.98px) {
+  .vertical-search-wrap .banner-caption {
+    text-align: center;
+    padding-left: 0;
+  }
+}
+.vertical-search-wrap-with-tabs .search-banner-vertical-wrap {
+  border-radius: 0 6px 6px 6px;
+}

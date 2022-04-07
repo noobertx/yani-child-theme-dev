@@ -1,0 +1,33 @@
+figure.interactive-banner {
+    position: relative;
+    overflow: hidden;
+}
+
+figure.interactive-banner figcaption {
+    position: absolute;
+}
+
+.banner--effect-1 figcaption {
+    top: 0;
+    bottom: 0;
+    height: auto;
+    max-height: 100%;
+}
+
+.banner--effect-1 p,.banner--effect-1 a {
+    opacity: 0;
+    transition: 0.25s all;
+}
+
+.banner--effect-1 img {
+    transform: translate3d(-40px,0,0);
+    transition: 0.25s all;
+}
+
+.banner--effect-1:hover p,.banner--effect-1:hover a {
+    opacity: 1;
+}
+
+.banner--effect-1:hover img {
+    transform: translate3d(0px,0,0);
+}

@@ -1,0 +1,35 @@
+.lightbox-content-wrap {
+  -webkit-overflow-scrolling: touch;
+}
+.lightbox-content-wrap .labels-wrap {
+  margin-bottom: 10px;
+}
+.lightbox-content-wrap .item-title {
+  font-size: 18px;
+}
+.lightbox-content-wrap .item-address {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.lightbox-content-wrap .item-price-wrap,
+.lightbox-content-wrap .property-overview-data {
+  border-top: 1px solid #dce0e0;
+  border-bottom: 1px solid #dce0e0;
+  margin-bottom: 20px;
+  padding: 20px 0;
+}
+.lightbox-content-wrap .item-wrap {
+  padding: 0;
+}
+.lightbox-content-wrap .btn-item {
+  height: auto;
+  line-height: 40px;
+}
+.lightbox-content-wrap .property-overview-data .flex-fill {
+  width: calc(100% / 3.1);
+  display: inline-block;
+  padding: 5px 0;
+}
+.lightbox-content-wrap .property-overview-data .flex-grow-1 {
+  padding: 0 0 5px 0;
+}

@@ -1,0 +1,24 @@
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) {
+  list-style: none;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) ul {
+  padding-left: 20px;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li {
+  line-height: 35px;
+  padding: 0 0 0 10px;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li a {
+  padding-left: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-left: -10px;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li a:before {
+  content: "";
+  font-family: "yani-iconfont";
+  font-size: 10px;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li span {
+  color: #636363;
+}

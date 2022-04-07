@@ -1,0 +1,36 @@
+.lead-detail-wrap h2 {
+  margin-bottom: 20px;
+  background-color: transparent;
+  padding: 0;
+  border-bottom: none;
+}
+.lead-detail-wrap ul li {
+  clear: both;
+  border-bottom: 1px solid #dce0e0;
+  padding: 5px 0;
+}
+.lead-detail-wrap .edit-lead-detail:hover {
+  color: #fff;
+}
+
+.lead-enquiry-wrap {
+  border: 1px solid #dce0e0;
+  padding: 30px;
+}
+.private-note-wrap {
+  background-color: rgba(52, 178, 228, 0.1);
+  padding: 15px 20px;
+}
+
+.message-reply-user time,
+.message-reply-message time {
+  font-size: 13px;
+}
+
+.action-col {
+  width: 1px;
+}
+
+.table-select-auto {
+  width: auto !important;
+}

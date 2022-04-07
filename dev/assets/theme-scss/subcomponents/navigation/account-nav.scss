@@ -1,0 +1,23 @@
+/* account nav
+/* ----------------------------------------------------------- */
+.logged-in-nav {
+  left: auto;
+  min-width: 200px;
+  visibility: hidden;
+  opacity: 0;
+  top: 110%;
+}
+.logged-in-nav a {
+  line-height: 1.5;
+  padding: 15px;
+  border-bottom: 1px solid;
+}
+
+.navbar-logged-in-wrap.show .logged-in-nav {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+.navbar-logged-in-wrap .dropdown-toggle:hover {
+  background-color: transparent !important;
+}

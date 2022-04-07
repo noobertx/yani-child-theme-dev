@@ -1,0 +1,22 @@
+.search-banner-wrap {
+  background-color: white;
+}
+.search-banner-wrap .flex-search:last-of-type {
+  padding: 0;
+}
+@media (max-width: 767.98px) {
+  .search-banner-wrap .flex-search:last-of-type {
+    padding: 5px;
+  }
+}
+
+.horizontal-search-wrap .search-banner-wrap {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 8px;
+}
+@media (max-width: 991.98px) {
+  .horizontal-search-wrap .search-banner-wrap {
+    max-width: 80%;
+  }
+}

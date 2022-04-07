@@ -1,0 +1,31 @@
+.property-detail-v6 .page-title-wrap,
+.property-detail-v6 .property-banner {
+  background-color: #fff;
+}
+.property-detail-v6 .property-banner .row {
+  margin-right: -6px;
+  margin-left: -6px;
+}
+.property-detail-v6 .property-banner .row [class*=col-] {
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+.property-detail-v6 .property-banner .img-wrap-2 {
+  margin-bottom: 8px;
+}
+.property-detail-v6 .property-banner .img-wrap-3-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 35%;
+}
+.property-detail-v6 .property-banner .block-wrap ul {
+  -ms-flex-preferred-size: calc(100% / 8);
+      flex-basis: calc(100% / 8);
+  border-right: 1px solid #dce0e0;
+  text-align: center;
+}
+.property-detail-v6 .property-banner .block-wrap ul:first-of-type {
+  border-left: 1px solid #dce0e0;
+}

@@ -1,0 +1,27 @@
+body {
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: 0;
+}
+
+label {
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+
+label[for=gdpr_agreement] {
+  margin-bottom: 0;
+}
+
+time,
+address {
+  color: #636363;
+}

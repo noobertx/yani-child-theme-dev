@@ -1,0 +1,68 @@
+.property-floor-plans-wrap .accordion-title {
+  max-width: 294px;
+  white-space: normal;
+  margin-right: 20px;
+}
+
+.accordion-tab {
+  margin-bottom: 1px;
+  border-bottom: 1px solid #dce0e0;
+}
+
+.accordion-title {
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+}
+.accordion-header .list-inline-item {
+  margin-right: 15px;
+}
+.accordion-header .list-inline-item:last-of-type {
+  margin-right: 0;
+}
+@media (max-width: 767.98px) {
+  .accordion-header .list-inline-item {
+    margin-right: 5px;
+  }
+}
+@media (max-width: 767.98px) {
+  .accordion-header .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.accordion-header .accordion-title:before {
+  font-family: "yani-iconfont";
+  font-size: 14px;
+  margin-right: 5px;
+}
+@media (max-width: 767.98px) {
+  .accordion-header .accordion-title {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .accordion-header .floor-information {
+    width: 100%;
+    font-size: 13px;
+  }
+}
+.accordion-header[aria-expanded=false] .accordion-title:before {
+  content: "";
+}
+.accordion-header[aria-expanded=true] .accordion-title:before {
+  content: "";
+}
+
+.accordion-body {
+  padding: 0 0 15px;
+}
+.accordion-body .floor-plan-description {
+  padding-top: 15px;
+}

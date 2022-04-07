@@ -1,0 +1,60 @@
+@media (min-width: 768px) {
+  .agent-v2-grid-module {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
+@media (min-width: 992px) {
+  .agent-v2-grid-module.agent-v2-grid-3-cols .agent-grid-wrap {
+    width: calc(100% / 3);
+  }
+}
+.agent-v2-grid-module.agent-v2-grid-3-cols .agent-grid-wrap.with-background .agent-details {
+  padding: 20px;
+}
+@media (min-width: 992px) {
+  .agent-v2-grid-module.agent-v2-grid-4-cols .agent-grid-wrap {
+    width: 25%;
+  }
+}
+.agent-v2-grid-module.agent-v2-grid-4-cols .agent-grid-wrap.with-background .agent-details {
+  padding: 30px 20px;
+}
+.agent-v2-grid-module.agent-v2-grid-4-cols .agent-details .d-flex {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.agent-v2-grid-module.agent-v2-grid-4-cols .agent-details .agent-information {
+  text-align: center;
+  padding-left: 0;
+  margin-top: 15px;
+}
+.agent-v2-grid-module.agent-v2-grid-4-cols .agent-details .agent-image {
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .agent-v2-grid-module .agent-grid-wrap {
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+  }
+}
+.agent-v2-grid-module .agent-grid-wrap.with-background .agent-details {
+  background-color: #fff;
+}
+.agent-v2-grid-module .agent-details {
+  margin-bottom: 30px;
+}
+.agent-v2-grid-module .agent-name {
+  margin-bottom: 6px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.agent-v2-grid-module .agent-phone-wrap,
+.agent-v2-grid-module .agent-email-wrap {
+  margin-bottom: 0;
+  line-height: 20px;
+}
+.agent-v2-grid-module .agent-email-wrap .yani-icon {
+  top: 2px;
+}

@@ -1,0 +1,22 @@
+.property-item-widget .left-property-item-widget-wrap {
+  width: 90px;
+  min-width: 90px;
+  margin-right: 20px;
+}
+.property-item-widget .right-property-item-widget-wrap .item-title {
+  white-space: normal;
+}
+.property-item-widget .right-property-item-widget-wrap .item-title,
+.property-item-widget .right-property-item-widget-wrap .item-price {
+  font-size: 14px;
+  line-height: 22px;
+}
+.property-item-widget .right-property-item-widget-wrap .item-price {
+  margin-bottom: 6px;
+}
+.property-item-widget .right-property-item-widget-wrap .item-amenities {
+  font-size: 12px;
+}
+.property-item-widget .right-property-item-widget-wrap .item-amenities li {
+  margin-bottom: 6px;
+}

@@ -1,0 +1,33 @@
+.advanced-search-nav {
+  padding: 10px 0;
+}
+@media (max-width: 991.98px) {
+  .advanced-search-nav {
+    display: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .advanced-search-nav .container {
+    max-width: 100%;
+  }
+}
+
+.search-icon:before {
+  color: #a1a7a8;
+  left: 15px;
+  content: "";
+  text-align: center;
+  font-family: "yani-iconfont";
+  height: 42px;
+  line-height: 42px;
+}
+.search-icon input {
+  padding-left: 40px;
+}
+
+.location-trigger {
+  height: 42px;
+  line-height: 42px;
+  border: none;
+  border-left: 1px solid;
+}

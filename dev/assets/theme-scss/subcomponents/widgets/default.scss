@@ -1,0 +1,24 @@
+.calendar_wrap table {
+  width: 100%;
+}
+
+.widget_recent_entries ul li,
+.widget_recent_comments ul li {
+  padding: 0 !important;
+  line-height: 25px !important;
+  margin-bottom: 10px;
+}
+.widget_recent_entries ul li a,
+.widget_recent_comments ul li a {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.widget_recent_entries ul li a:before,
+.widget_recent_comments ul li a:before {
+  display: none;
+}
+
+.comment-author-link {
+  float: none !important;
+}
+

@@ -1,0 +1,50 @@
+.login-register {
+  white-space: nowrap;
+}
+
+.login-register-nav a {
+  padding: 10px 15px;
+}
+.login-register-nav a:hover {
+  background-color: none !important;
+}
+
+.header-main-wrap {
+  z-index: 4;
+}
+.header-main-wrap .login-register-nav a {
+  padding: 10px 10px 10px 0;
+}
+.header-main-wrap .login-register-nav .btn-create-listing {
+  padding: 10px 15px;
+  font-weight: 900;
+}
+.header-main-wrap .login-register-nav .login-link a:hover, .header-main-wrap .login-register-nav .login-link a:active,
+.header-main-wrap .login-register-nav .register-link a:hover,
+.header-main-wrap .login-register-nav .register-link a:active {
+  background-color: transparent !important;
+}
+.header-main-wrap .login-register-nav .btn-icon-login-register {
+  background-color: transparent;
+  padding: 0;
+  width: 42px;
+  font-size: 20px;
+  line-height: 42px;
+  height: 42px;
+  -webkit-text-stroke: 0.5px;
+  margin-right: 10px;
+}
+.header-main-wrap .login-register-nav .btn-icon-login-register:hover, .header-main-wrap .login-register-nav .btn-icon-login-register:active {
+  background-color: transparent !important;
+}
+.header-main-wrap .login-register-nav .btn-phone-number a:hover, .header-main-wrap .login-register-nav .btn-phone-number a:active {
+  background-color: transparent !important;
+}
+.header-main-wrap .login-register-nav .btn-phone-number .icon-phone-actions-ring {
+  font-size: 18px;
+  top: 3px;
+}
+
+.logged-in-nav-wrap.navi-login-register .btn-create-listing {
+  margin: 0 10px;
+}

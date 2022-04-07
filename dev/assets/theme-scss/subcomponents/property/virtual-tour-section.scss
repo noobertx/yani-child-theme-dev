@@ -1,0 +1,14 @@
+.block-video-wrap {
+  padding-bottom: 56.25%;
+  /* 16:9 */
+}
+
+.block-virtual-video-wrap {
+  padding-bottom: 75%;
+  /* 4:3; */
+}
+
+.block-video-wrap,
+.block-virtual-video-wrap {
+  height: 0;
+}

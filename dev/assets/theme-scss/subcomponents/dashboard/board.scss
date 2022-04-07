@@ -1,0 +1,177 @@
+.board-message-icon-wrap {
+  color: #ebebeb;
+}
+.board-message-icon-wrap .notification-circle {
+  left: 12px;
+  border: 2px solid #fff;
+  width: 12px;
+  height: 12px;
+}
+
+.deals-table-wrap {
+  padding: 10px;
+}
+@media (min-width: 992px) {
+  .deals-table-wrap {
+    overflow-x: scroll;
+    overflow-y: visible;
+    padding: 30px 30px 0;
+    height: calc(100vh - 132px);
+    overflow-y: scroll !important;
+  }
+}
+.deals-table-wrap h2 {
+  font-size: 18px;
+}
+
+@media (min-width: 992px) {
+  .deals-table th,
+.deals-table td {
+    min-width: 150px;
+    padding: 10px 0 10px 20px;
+  }
+  .deals-table th:last-child,
+.deals-table td:last-child {
+    padding: 10px 20px;
+  }
+}
+.deals-table thead th {
+  background-color: #fff;
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #dce0e0;
+  vertical-align: middle;
+}
+.deals-table tbody tr:last-of-type td {
+  border-bottom: 1px solid #dce0e0;
+}
+.deals-table tbody th {
+  background-color: #fff;
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid #dce0e0;
+  vertical-align: middle;
+}
+@media (max-width: 767.98px) {
+  .deals-table tfoot {
+    display: none;
+  }
+}
+.deals-table tfoot td {
+  border-bottom: none;
+}
+.deals-table tfoot .total-deals {
+  background-color: #dce0e0;
+  border-radius: 0 0 4px 4px;
+}
+
+.deals-nav-tab.nav-pills .nav-link {
+  padding: 15px 20px;
+  background-color: #ebebeb;
+  border-top: 2px solid #ebebeb;
+}
+@media (max-width: 767.98px) {
+  .deals-nav-tab.nav-pills .nav-link {
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+}
+.deals-nav-tab.nav-pills .nav-link.active.active-deals {
+  border-top: 2px solid #ffc107;
+}
+.deals-nav-tab.nav-pills .nav-link.active.won-deals {
+  border-top: 2px solid #28a745;
+}
+.deals-nav-tab.nav-pills .nav-link.active.lost-deals {
+  border-top: 2px solid #dc3545;
+}
+
+.btn.new-lead-color {
+  background-color: #80DEEA !important;
+  border-color: #80DEEA !important;
+  color: #fff !important;
+}
+.btn.meeting-scheduled-color {
+  background-color: #BA68C8 !important;
+  border-color: #BA68C8 !important;
+  color: #fff !important;
+}
+.btn.qualified-color {
+  background-color: #2196F3 !important;
+  border-color: #2196F3 !important;
+  color: #fff !important;
+}
+.btn.proposal-sent-color {
+  background-color: #F8BBD0 !important;
+  border-color: #F8BBD0 !important;
+  color: #fff !important;
+}
+.btn.called-color {
+  background-color: #F9A825 !important;
+  border-color: #F9A825 !important;
+  color: #fff !important;
+}
+.btn.negotiation-color {
+  background-color: #FF7043 !important;
+  border-color: #FF7043 !important;
+  color: #fff !important;
+}
+.btn.email-sent-color {
+  background-color: #512DA8 !important;
+  border-color: #512DA8 !important;
+  color: #fff !important;
+}
+.btn.won-color {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+  color: #fff !important;
+}
+.btn.lost-color {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+}
+.btn.follow-up-color {
+  background-color: #8BC34A !important;
+  border-color: #8BC34A !important;
+  color: #fff !important;
+}
+.btn.demo-color {
+  background-color: #BCAAA4 !important;
+  border-color: #BCAAA4 !important;
+  color: #fff !important;
+}
+
+.activities-list-wrap {
+  overflow-y: hidden;
+}
+
+.activities-list:before {
+  content: "";
+  left: 50px;
+  display: block;
+  border-left: 1px solid #dce0e0;
+  z-index: auto;
+}
+@media (max-width: 767.98px) {
+  .activities-list:before {
+    left: 35px;
+  }
+}
+
+.activitiy-item:after {
+  width: calc(100% - 20px);
+  content: "";
+  left: 20px;
+  display: block;
+  border-bottom: 1px solid #dce0e0;
+  z-index: 1;
+  bottom: 0px;
+}
+
+.activitiy-item-left {
+  min-width: 60px;
+}
+
+.activity-time {
+  font-style: italic;
+  color: #636363;
+}

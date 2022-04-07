@@ -1,0 +1,31 @@
+.yanithemes-sticky {
+  z-index: 1030;
+}
+
+.header-mobile {
+  text-align: center;
+  height: 60px;
+  padding: 0 10px;
+}
+@media (min-width: 992px) {
+  .header-mobile {
+    display: none !important;
+  }
+}
+.header-mobile .logo {
+  margin: 0 auto;
+}
+.header-mobile .toggle-button-left,
+.header-mobile .toggle-button-right {
+  background-color: transparent;
+  font-size: 20px;
+}
+.header-mobile .toggle-button-left:active, .header-mobile .toggle-button-left:focus,
+.header-mobile .toggle-button-right:active,
+.header-mobile .toggle-button-right:focus {
+  outline: 0;
+}
+
+.header-mobile-right {
+  min-width: 56px;
+}

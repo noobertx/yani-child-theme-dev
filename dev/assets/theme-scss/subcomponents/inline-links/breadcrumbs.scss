@@ -1,0 +1,15 @@
+.breadcrumb {
+  font-size: 13px;
+  background-color: transparent;
+}
+@media (max-width: 767.98px) {
+  .breadcrumb {
+    font-size: 12px;
+  }
+}
+
+.breadcrumb-item + .breadcrumb-item:before {
+  content: "";
+  font-family: "yani-iconfont";
+  font-size: 10px;
+}

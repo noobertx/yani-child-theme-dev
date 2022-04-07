@@ -1,0 +1,105 @@
+/* header v.1 height
+/* ------------------------------------------------------------------------ */
+.header-v1 .header-inner-wrap,
+.header-v1 .navbar-logged-in-wrap {
+  line-height: 60px;
+  height: 60px; }
+
+/* header v.2 height
+/* ------------------------------------------------------------------------ */
+.header-v2 .header-top .navbar {
+  height: 110px; }
+
+.header-v2 .header-bottom .header-inner-wrap,
+.header-v2 .header-bottom .navbar-logged-in-wrap {
+  line-height: 54px;
+  height: 54px; }
+
+/* header v.3 height
+/* ------------------------------------------------------------------------ */
+.header-v3 .header-top .header-inner-wrap,
+.header-v3 .header-top .header-contact-wrap {
+  height: 80px;
+  line-height: 80px; }
+
+.header-v3 .header-bottom .header-inner-wrap,
+.header-v3 .header-bottom .navbar-logged-in-wrap {
+  line-height: 54px;
+  height: 54px; }
+
+/* header v.4 height
+/* ------------------------------------------------------------------------ */
+.header-v4 .header-inner-wrap,
+.header-v4 .navbar-logged-in-wrap {
+  line-height: 90px;
+  height: 90px; }
+
+/* header v.5 height
+/* ------------------------------------------------------------------------ */
+.header-v5 .header-top .header-inner-wrap,
+.header-v5 .header-top .navbar-logged-in-wrap {
+  line-height: 110px;
+  height: 110px; }
+
+.header-v5 .header-bottom .header-inner-wrap {
+  line-height: 54px;
+  height: 54px; }
+
+/* header v.6 height
+/* ------------------------------------------------------------------------ */
+.header-v6 .header-inner-wrap,
+.header-v6 .navbar-logged-in-wrap {
+  height: 60px;
+  line-height: 60px; }
+
+
+
+/* Sub-menu colors
+/* ----------------------------------------------------------- */
+.main-nav .navbar-nav .nav-item .dropdown-menu {
+  background-color: white; }
+
+.main-nav .navbar-nav .nav-item .nav-item a {
+  color: #004274;
+  border-bottom: 1px solid #dce0e0; }
+
+.main-nav .navbar-nav .nav-item .nav-item a:hover,
+.main-nav .navbar-nav .nav-item .nav-item a:active {
+  color: #00aeff; }
+
+
+/* top bar - colors
+/* ------------------------------------------------------------------------ */
+.top-bar-wrap,
+.switcher-wrap .dropdown-menu {
+  background-color: #000; }
+
+.top-bar-wrap a,
+.top-bar-contact,
+.top-bar-slogan,
+.top-bar-wrap .btn,
+.switcher-wrap .dropdown-menu,
+.top-bar-wrap .navbar-toggler {
+  color: #fff; }
+
+.top-bar-wrap a:hover,
+.top-bar-wrap a:active,
+.top-bar-wrap .btn:hover,
+.top-bar-wrap .btn:active,
+.switcher-wrap .dropdown-menu li:hover,
+.switcher-wrap .dropdown-menu li:active {
+  color: #00aeff; }
+
+/* header transparent - nav colors
+/* ----------------------------------------------------------- */
+.header-transparent-wrap .header-v4 {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
+
+.header-transparent-wrap .header-v4 a {
+  color: #fff; }
+
+.header-transparent-wrap .header-v4 a:hover,
+.header-transparent-wrap .header-v4 a:active {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1); }

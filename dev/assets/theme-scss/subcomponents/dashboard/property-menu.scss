@@ -1,0 +1,28 @@
+.menu-edit-property-wrap {
+  padding: 30px 60px 0 0;
+}
+@media (max-width: 767.98px) {
+  .menu-edit-property-wrap {
+    display: none;
+  }
+}
+.menu-edit-property-wrap .menu-title {
+  text-transform: uppercase;
+}
+
+@media (max-width: 767.98px) {
+  .dashboard-mobile-edit-menu-wrap {
+    display: block;
+    padding: 10px 0;
+  }
+}
+.dashboard-mobile-edit-menu-wrap .bootstrap-select .dropdown-menu.show {
+  -webkit-transform: translate3d(0px, 0, 0px) !important;
+          transform: translate3d(0px, 0, 0px) !important;
+  top: 44px !important;
+}
+
+.menu-edit-property i {
+  font-size: 10px;
+  top: -1px;
+}

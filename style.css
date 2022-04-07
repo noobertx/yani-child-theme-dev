@@ -1,0 +1,400 @@
+/*!
+Theme Name: Yani Simple Theme
+Theme URI: https://github.com/noobertx/yani-theme/
+Author: Robert Talavera
+Author URI: https://github.com/noobertx/
+Description: A progressive simple theme development rig for WordPress and Woocommerce.
+Version: 1.0.2
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: yani
+Tags: translation-ready, simple
+
+*/
+/*body{}
+.screen-reader-text{
+	display:none;
+}
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail{
+	max-width: 100%;
+	height: auto;
+}
+
+.content-area {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.comment__body>img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:1200px){	
+	.main-content {
+	    display: grid;
+	    grid-template-columns: 3fr 1fr;
+	    max-width: 1140px;
+	    margin: auto;
+	}
+
+	#header .navbar-expand-md .navbar-nav {
+    	margin: 0;
+	}
+
+	ul#menu-menu-1 {
+    margin: 0;
+	}
+	.comments,
+	.author-banner header,
+	.search-header,
+	.search-result-none,
+	.page-banner header,
+	article {
+    	max-width: 1140px;
+    	margin: auto;
+	}
+
+	.navigation-wrap {
+	    width: 88vw!important;
+	    margin: auto;
+	    display: flex;
+	}
+
+	.navigation-wrap .container-fluid {
+	    padding: 0;
+	}
+
+	section {
+    	margin: 70px 0;
+	}
+
+	section:first-child {
+    margin-top: 0;
+}
+
+	section>.container>h2 {
+    	margin-bottom: 35px;
+	}
+
+	section.page-content-wrapper {
+    	display: flex;
+    	margin: 0;
+	}
+	.author-card	 {
+	    display: flex;
+	    margin: 30px 0;
+	}
+
+	.author-avatar {
+	    margin-right: 20px;
+	}
+
+	.author-avatar__content {
+	    width: 100%;
+	}
+	.archive .has-sidebar main,
+	.author .has-sidebar main {
+    	width: 100%;
+	}
+
+	section.page-post-items {
+    	margin: 0;
+	}
+	.post__navigation{width:100%;}
+	.post-navigation__links {
+    	display: flex;
+    	width: 100%;
+    	justify-content: space-between;
+	}
+
+	.nav-links{
+		display: flex;
+		justify-content: center;
+	}
+
+
+.page-banner {
+    height: 50vh;
+    display: flex;
+    background:var(--color-theme-secondary);
+
+}
+
+.page-banner header{
+    display: flex;
+    align-items:center;
+
+	}
+
+	.page-banner header>img {
+    margin-right: 30px;
+}
+
+
+}
+
+
+a.cart-customlocation {
+    position: relative;
+}
+
+a.cart-customlocation .items {
+    position: absolute;
+    font-size: 12px;
+    left: 20px;
+    top: -10px;
+    background: red;
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+._themename-account .dropdown-menu.show{
+	display: flex;
+	flex-direction: column;
+}
+
+
+section.main-slider .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+section.main-slider .slick-next{
+	right: 20px;
+	z-index: 9;
+}
+section.main-slider .slick-prev{
+	left: 20px;
+	z-index: 9;
+}
+
+section.main-slider .slick-prev:before, 
+section.main-slider .slick-next:before{
+	font-size: 30px;
+}
+
+.pagination-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.pagination .nav-links > * {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 5;
+}
+
+a.page-numbers {
+    background: var(--color-theme-primary);
+    color: var(--color-theme-light);
+}
+
+*/
+
+.hero-content-wrap{
+	min-height:80vh;
+}
+
+.hero-content-wrap{
+	background-color: rgba(0,0,0,0.7);
+}
+
+.main-container{
+	width: 70%;
+}
+
+.post-content {
+    padding: 40px 0;		
+}
+.main-container.post-content {
+    padding: 40px 20px;	
+}
+
+aside[role="complementary"].sidebar{
+    padding: 40px 20px;	
+}
+#navbarSupportedContent .dropdown-menu {
+    top: 90%;
+}
+#navbarSupportedContent .dropdown-menu .dropdown-menu{
+    top: 0;
+	left: 100%;
+}
+
+.mega ul.dropdown-menu.show {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.mega {
+    position: unset!important;
+}
+
+.mega ul.dropdown-menu.show .dropdown-menu {
+    display: block;
+    position: unset;
+    border: none;
+}
+
+.dropdown-toggle:after {
+    display: none!important;
+}
+
+button.menu-button {
+    background: transparent;
+    border: none;
+}
+
+.skip-link{
+	position: absolute;
+	left:-10000px;
+	top:auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+.skip-link:focus{
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	background: #fff;
+	padding: 10px 15px;
+	width: auto;
+	height: auto;
+}
+
+.post__thumbnail--cover{
+	background-size: cover;	
+	position: relative;
+}
+
+.post__thumbnail--cover:before{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.8);
+}
+
+.post__thumbnail--cover-content-wrap {
+    height: 80vh;
+}
+
+.post__thumbnail--cover--text-area a{
+	text-decoration: none!important;	
+}
+
+ul.post-categories {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0 0 0 10px;
+    flex-wrap: wrap;
+}
+
+ul.post-categories a {
+    padding: 10px;
+    color: #ccc;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.single-post-tags a {
+    padding: 5px 10px;
+    display: inline-block;
+    color: #fff;
+    background: #333;
+    margin: 0 2px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.single-post-tags {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+#site-footer .container ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#site-footer .container {
+    padding: 40px 0;
+}
+
+
+ul.comments__list ,ul.comments__list li {
+    list-style: none!important;
+}
+
+
+::marker {
+    list-style: none!important;
+    content: "";
+    display: none!important;
+}
+
+.comment-top figure {
+    margin: 0;
+}
+
+.comment-blocks {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    color:#666;
+}
+
+a.comment-author-link {
+    font-size: 14px;
+}
+
+.comment-content-opr{
+	overflow: hidden;
+}
+
+h2.comment-author {
+    margin: 0;
+}
+
+a.comment-edit-link p {
+    margin: 0 10px;
+}
+
+time.comment-meta-item {
+    margin:  0 10px;
+}
+
+.comment-content p {
+    margin: 0;
+    color: #222 ;
+}
+
+
+.u-screen-reader-text{
+	display: none;
+}
+@media (min-width: 1300px){
+
+.container.mx-auto {
+    max-width: 1300px;
+}
+
+}

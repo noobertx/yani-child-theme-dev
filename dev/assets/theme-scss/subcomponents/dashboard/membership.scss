@@ -1,0 +1,106 @@
+.mebership-list-info li {
+  clear: both;
+  border-bottom: 1px solid #dce0e0;
+  padding: 8px 0;
+}
+.membership-package-order-detail-wrap {
+  margin: 0 0 0 30px;
+}
+@media (max-width: 991.98px) {
+  .membership-package-order-detail-wrap {
+    margin: 0;
+  }
+}
+
+.membership-package-order-detail {
+  min-width: 300px;
+}
+.membership-package-order-detail .total-price {
+  border-top: 2px solid #000;
+  border-bottom: none;
+  padding: 20px 0 0;
+}
+
+.form-login-link {
+  top: -52px;
+  right: 30px;
+  font-size: 13px;
+}
+@media (max-width: 767.98px) {
+  .form-login-link {
+    position: relative;
+    top: auto;
+    right: auto;
+    margin-bottom: 20px;
+  }
+}
+
+.membership-packages-list {
+  margin: 0 -30px;
+}
+.membership-packages-list .membership-packages-item {
+  border-bottom: 1px solid #dce0e0;
+  padding: 30px;
+}
+.membership-packages-list .membership-packages-item:first-of-type {
+  padding: 0 30px 30px;
+}
+.membership-packages-list .membership-packages-item:last-of-type {
+  padding: 30px 30px 0;
+  border-bottom: none;
+}
+
+.payment-method-block .form-group {
+  margin-bottom: -1px;
+}
+.payment-method-block .radio-tab {
+  padding: 15px 30px;
+}
+.payment-method-block .radio-tab .control__indicator {
+  left: 0;
+  right: auto;
+}
+.payment-method-block .radio-tab .control-text {
+  font-weight: 700;
+  font-size: 16px;
+}
+.payment-method-block .radio-tab-inner {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #dce0e0;
+}
+.payment-method-block:first-of-type .radio-tab-inner {
+  border-radius: 4px 4px 0 0;
+}
+.payment-method-block:last-of-type .radio-tab-inner {
+  border-radius: 0 0 4px 4px;
+}
+
+.paypal-method,
+.stripe-method,
+.twocheckout-method {
+  background: url(../img/cc-cards.png) no-repeat 93% center;
+}
+
+.recurring-payment-wrap {
+  padding: 10px 0 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #dce0e0;
+}
+.payment-method {
+  background-color: #fff;
+  margin-top: -25px;
+}
+
+.frontend-submission-page {
+  padding: 50px 0 0 0;
+}
+
+.membership-package-order-detail label.control.control--checkbox {
+  min-height: auto;
+}
+
+.hz-password-reset-page {
+  width: 350px;
+  margin: 60px auto 160px;
+}

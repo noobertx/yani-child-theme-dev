@@ -1,0 +1,8 @@
+.video-background {
+  z-index: 0;
+}
+.video-background:before {
+  content: " ";
+  background-color: #000;
+  opacity: 0.35;
+}

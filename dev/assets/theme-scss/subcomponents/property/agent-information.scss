@@ -1,0 +1,27 @@
+.agent-information {
+  padding-left: 15px;
+  line-height: 25px;
+}
+.agent-information .agent-link {
+  font-weight: 500;
+}
+.agent-information .agent-social-media {
+  margin-top: -4px;
+}
+.agent-information .agent-phone-wrap {
+  margin-bottom: 10px;
+}
+.agent-information .agent-phone-wrap span {
+  margin-right: 10px;
+  overflow: hidden;
+}
+.agent-information .agent-phone-wrap span:hover {
+  cursor: pointer;
+}
+.agent-information li.agent-phone-wrap .yani-icon {
+  top: -4px;
+}
+
+.agent-phone.agent-phone-hidden {
+  width: 60px;
+}

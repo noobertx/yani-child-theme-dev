@@ -1,0 +1,95 @@
+.print-page {
+  font-size: 14px;
+}
+
+.print-main-wrap {
+  background-color: #fff;
+}
+
+.print-wrap {
+  max-width: 768px;
+  margin: 0 auto;
+}
+.print-logo-wrap,
+.print-title-wrap {
+  padding: 30px 0;
+}
+
+.print-logo-wrap {
+  text-align: center;
+  padding: 30px 0;
+  border-bottom: 1px solid #dce0e0;
+}
+.print-logo-wrap .logo {
+  margin: 0 0 10px;
+}
+
+.print-title-wrap h1 {
+  font-size: 24px;
+  margin-bottom: 3px;
+}
+.print-title-wrap .item-address {
+  margin-bottom: 0;
+}
+.print-title-wrap .item-price-wrap {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  color: #000;
+}
+.print-title-wrap .item-price-wrap .item-price {
+  font-size: 20px;
+}
+.print-title-wrap .item-price-wrap .item-sub-price {
+  font-size: 14px;
+}
+
+.print-banner-wrap .qr-code {
+  background-color: #fff;
+  padding: 15px 0 0 15px;
+}
+
+.print-content .print-section {
+  border-top: 1px solid #dce0e0;
+  margin-top: 20px;
+}
+.print-content .print-title {
+  padding-top: 40px;
+}
+.print-content .block-content-wrap .list-3-cols li,
+.print-content .block-content-wrap .list-2-cols li,
+.print-content .block-content-wrap .list-1-cols li {
+  padding: 0;
+  border-bottom: none;
+  line-height: 32px;
+  -webkit-box-pack: initial;
+      -ms-flex-pack: initial;
+          justify-content: initial;
+}
+.print-content .block-content-wrap .list-3-cols li span,
+.print-content .block-content-wrap .list-2-cols li span,
+.print-content .block-content-wrap .list-1-cols li span {
+  float: none;
+}
+.print-content .block-content-wrap .list-3-cols li .yani-icon,
+.print-content .block-content-wrap .list-2-cols li .yani-icon,
+.print-content .block-content-wrap .list-1-cols li .yani-icon {
+  line-height: 32px;
+}
+.print-content .floor-plan-wrap {
+  border: 1px solid #dce0e0;
+  margin-bottom: 30px;
+}
+.print-content .floor-plan-top {
+  padding: 20px 30px;
+  border-bottom: 1px solid #dce0e0;
+}
+.print-content .floor-plan-description {
+  padding: 20px 30px;
+}
+
+.print-title {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+}

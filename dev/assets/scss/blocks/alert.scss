@@ -1,0 +1,15 @@
+.wprig-alert{
+	color: #fff;
+
+	&.bg-info {   background: var(--color-theme-info); }
+	&.bg-primary {   background: var(--color-theme-primary); }
+	&.bg-secondary {   background: var(--color-theme-secondary); }
+	&.bg-success {   background: var(--color-theme-success); }
+	&.bg-warning {   background: var(--color-theme-warning); }
+	&.bg-danger {   background: var(--color-theme-danger); }
+	&.bg-secondary {   background: var(--color-theme-secondary); }
+	&.bg-accent {   background: var(--color-theme-accent); }
+	&.bg-dark {   background: var(--color-theme-dark); }
+	&.bg-light {   background: var(--color-theme-light); }
+	&.bg-white {   background: var(--color-theme-white); color: var(--color-theme-dark); }
+}

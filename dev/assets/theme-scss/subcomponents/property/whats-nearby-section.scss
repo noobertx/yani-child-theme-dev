@@ -1,0 +1,58 @@
+.what-nearby dl {
+  margin-bottom: 30px;
+}
+.what-nearby dt {
+  margin-bottom: 20px;
+}
+.what-nearby dd {
+  margin-bottom: 0;
+  padding: 5px 10px;
+  border-bottom: 1px solid #dce0e0;
+}
+.what-nearby .time-review {
+  color: #5c6872;
+  font-size: 12px;
+}
+.what-nearby .what-nearby-left {
+  font-weight: 500;
+  width: 50%;
+}
+@media (max-width: 767.98px) {
+  .what-nearby .what-nearby-left {
+    float: none;
+    text-align: left;
+    width: 100%;
+  }
+}
+.what-nearby .what-nearby-right {
+  text-align: right;
+  width: 50%;
+}
+@media (max-width: 767.98px) {
+  .what-nearby .what-nearby-right {
+    float: none;
+    text-align: left;
+    width: 100%;
+  }
+}
+.what-nearby .what-nearby-right .label {
+  margin: 0 5px;
+  font-size: 10px;
+  padding: 4px 6px;
+}
+
+.star .icon-rating {
+  width: 14px;
+  height: 14px;
+  margin-right: 3px;
+  background-size: 14px;
+}
+.star .full-star {
+  background-image: url(../img/full-star.svg);
+}
+.star .half-star {
+  background-image: url(../img/half-star.svg);
+}
+.star .empty-star {
+  background-image: url(../img/empty-star.svg);
+}

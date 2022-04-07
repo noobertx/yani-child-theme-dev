@@ -1,0 +1,51 @@
+.property-banner .property-form-wrap {
+  background-color: rgba(255, 255, 255, 0.95);
+  top: 40px;
+  left: 40px;
+  padding: 30px;
+  width: 370px;
+}
+@media (max-width: 991.98px) {
+  .property-banner .property-form-wrap {
+    display: none;
+  }
+}
+
+.property-form {
+  margin-top: 15px;
+}
+.property-form .btn-half-width:last-of-type {
+  margin-right: 0;
+}
+.property-form button.btn-half-width:first-of-type {
+  margin-right: 10px;
+}
+.property-form a.btn-half-width:first-of-type {
+  margin-right: 0;
+}
+.property-form .control__indicator {
+  top: 3px;
+  width: 15px;
+  height: 15px;
+}
+.property-form .control__indicator:after {
+  width: 5px;
+  height: 8px;
+  left: 4px;
+  top: 1px;
+}
+.property-form .control.control--checkbox {
+  padding-left: 22px;
+  font-size: 13px;
+}
+
+.sidebar-wrap .property-form-wrap {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.property-form-terms {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}

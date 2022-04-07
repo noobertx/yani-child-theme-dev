@@ -1,0 +1,16 @@
+.list-view .item-wrap-v2 .item-amenities {
+  padding: 0;
+  margin-bottom: 10px;
+  height: 40px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-wrap-v2 .item-amenities {
+    padding: 15px 0 0;
+  }
+}
+.list-view .item-wrap-v2 .item-amenities li span {
+  margin-bottom: 5px;
+}
+.list-view .item-wrap-v2 .item-body .labels-wrap {
+  margin-bottom: 10px;
+}

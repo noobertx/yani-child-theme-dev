@@ -1,0 +1,145 @@
+.dashboard-table tbody tr {
+  background-color: #fff;
+}
+.dashboard-table th {
+  padding: 10px;
+}
+.dashboard-table td {
+  padding: 10px;
+}
+.dashboard-table td.collapse-table-wrap {
+  padding: 0 10px;
+}
+.dashboard-table .control {
+  padding-left: 10px;
+}
+
+.table-hover thead tr {
+  border-bottom: 1px solid #dce0e0;
+  background-color: rgba(220, 224, 224, 0.35);
+}
+.table-hover tbody tr:hover {
+  background-color: rgba(220, 224, 224, 0.35);
+}
+
+.table-half-width {
+  width: 50%;
+}
+
+.table-cell-title span {
+  border: 1px solid #dce0e0;
+  line-height: 40px;
+  padding: 0 15px;
+}
+
+.table-nowrap {
+  white-space: nowrap;
+}
+
+.dashboard-table-properties td {
+  white-space: nowrap;
+}
+.dashboard-table-properties td.property-table-address {
+  white-space: normal;
+}
+
+.table-lined tbody td {
+  border-bottom: 1px solid #dce0e0;
+}
+
+.property-payment-status {
+  background-color: #fff;
+  border-radius: 0 4px 0 0;
+}
+
+@media (max-width: 991.98px) {
+  .responsive-table thead,
+.responsive-table tbody,
+.responsive-table th,
+.responsive-table td,
+.responsive-table tr {
+    display: block;
+  }
+}
+@media (max-width: 991.98px) {
+  .responsive-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+}
+@media (max-width: 991.98px) {
+  .responsive-table tr {
+    margin-bottom: 20px;
+  }
+}
+.responsive-table td {
+  vertical-align: middle;
+}
+@media (max-width: 991.98px) {
+  .responsive-table td {
+    position: relative;
+    padding-left: 40%;
+  }
+}
+@media (max-width: 991.98px) {
+  .responsive-table td:last-of-type {
+    border-bottom: none;
+  }
+}
+@media (max-width: 991.98px) {
+  .responsive-table td:before {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    width: 40%;
+    white-space: nowrap;
+    font-weight: 700;
+    content: attr(data-label);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .draggable-table thead,
+.draggable-table tbody,
+.draggable-table th,
+.draggable-table td.table-full-width,
+.draggable-table tr {
+    display: block;
+    position: relative;
+  }
+}
+@media (max-width: 767.98px) {
+  .draggable-table thead,
+.draggable-table tbody,
+.draggable-table th,
+.draggable-table td.table-full-width,
+.draggable-table tr {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 991.98px) {
+  .draggable-table .drag-cell {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+@media (max-width: 991.98px) {
+  .draggable-table .table-cell-title span {
+    line-height: unset;
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .additional-details-table td {
+    padding: 2px;
+  }
+}
+
+.expiration_date {
+  font-style: italic;
+  color: #dc3545;
+  font-size: 12px;
+}

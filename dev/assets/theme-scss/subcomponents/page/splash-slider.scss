@@ -1,0 +1,13 @@
+.splash-slider-wrap {
+  z-index: 0;
+}
+.splash-slider-wrap .slick-list[style] {
+  height: 100vh !important;
+}
+.splash-slider-wrap .slick-track {
+  height: 100vh;
+}
+.splash-slider-wrap .splash-slider-item {
+  background-size: cover;
+  height: 100vh;
+}

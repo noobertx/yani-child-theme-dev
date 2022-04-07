@@ -1,0 +1,30 @@
+.next-prev-block .prev-box,
+.next-prev-block .next-box {
+  width: calc(50% - 15px);
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 0 0 30px;
+}
+@media (max-width: 1199.98px) {
+  .next-prev-block .prev-box,
+.next-prev-block .next-box {
+    height: 130px;
+  }
+}
+@media (max-width: 991.98px) {
+  .next-prev-block .prev-box,
+.next-prev-block .next-box {
+    height: 150px;
+  }
+}
+@media (max-width: 767.98px) {
+  .next-prev-block .prev-box,
+.next-prev-block .next-box {
+    width: 100%;
+    height: 160px;
+  }
+}
+.next-prev-block .prev-box .next-prev-block-content,
+.next-prev-block .next-box .next-prev-block-content {
+  padding: 20px;
+}

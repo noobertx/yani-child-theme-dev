@@ -1,0 +1,18 @@
+.flickr-images a,
+.instagram-images a {
+  width: 50%;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+@media (max-width: 991.98px) {
+  .flickr-images a,
+.instagram-images a {
+    width: 25%;
+  }
+}
+@media (max-width: 767.98px) {
+  .flickr-images a,
+.instagram-images a {
+    width: 50%;
+  }
+}

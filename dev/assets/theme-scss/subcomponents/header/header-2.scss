@@ -1,0 +1,21 @@
+.header-v2 .header-contact-right div:first-of-type {
+  font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .header-v2-mobile .header-contact-wrap {
+    display: none !important;
+  }
+}
+.header-v2-mobile .header-contact-wrap .header-contact {
+  padding: 10px;
+  text-align: center;
+}
+.header-v2-mobile .header-contact-wrap .header-contact-left,
+.header-v2-mobile .header-contact-wrap .header-contact-4 {
+  display: none !important;
+}
+.header-v2-mobile .header-contact-wrap .header-contact-right {
+  font-size: 12px !important;
+  margin: 0 auto;
+}

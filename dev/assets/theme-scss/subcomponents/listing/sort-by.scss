@@ -1,0 +1,24 @@
+.sort-by-title {
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+@media (max-width: 767.98px) {
+  .sort-by {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+.sort-by .filter-option {
+  margin-right: 10px;
+}
+.sort-by .bootstrap-select .dropdown-menu {
+  min-width: 100%;
+}
+.sort-by .form-control,
+.sort-by .btn-light.dropdown-toggle {
+  padding: 0 2px;
+  border-color: transparent !important;
+  background-color: transparent !important;
+}

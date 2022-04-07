@@ -1,0 +1,104 @@
+.class-energy-list li {
+  clear: both;
+  border-bottom: 1px solid #dce0e0;
+  padding: 0 10px;
+  line-height: 40px;
+}
+@media (max-width: 767.98px) {
+  .class-energy-list li {
+    line-height: 36px;
+  }
+}
+.class-energy {
+  clear: both;
+  padding: 60px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.class-energy-indicator {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+.class-energy-indicator:nth-child(1) {
+  background-color: #33a357;
+}
+.class-energy-indicator:nth-child(2) {
+  background-color: #79b752;
+}
+.class-energy-indicator:nth-child(3) {
+  background-color: #c3d545;
+}
+.class-energy-indicator:nth-child(4) {
+  background-color: #fff12c;
+}
+.class-energy-indicator:nth-child(5) {
+  background-color: #edb731;
+}
+.class-energy-indicator:nth-child(6) {
+  background-color: #d66f2c;
+}
+.class-energy-indicator:nth-child(7) {
+  background-color: #cc232a;
+}
+.class-energy-indicator:nth-child(8) {
+  background-color: #cc232a;
+}
+.class-energy-indicator:nth-child(9) {
+  background-color: #cc232a;
+}
+.class-energy-indicator:nth-child(10) {
+  background-color: #444444;
+}
+.class-energy-indicator:nth-child(11) {
+  background-color: #cc232a;
+}
+.class-energy-indicator:nth-child(12) {
+  background-color: #cc232a;
+}
+.class-energy-indicator span {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.indicator-energy {
+  font-size: 13px;
+  line-height: 30px;
+  top: -48px;
+  padding: 0 10px;
+  white-space: nowrap;
+  color: #fff;
+  background-color: #999;
+}
+.indicator-energy:before {
+  bottom: -10px;
+  content: "";
+  border-top: 10px solid #999;
+}
+
+.class-energy-indicator:nth-child(1) .indicator-energy, .class-energy-indicator:nth-child(2) .indicator-energy, .class-energy-indicator:nth-child(3) .indicator-energy, .class-energy-indicator:nth-child(4) .indicator-energy, .class-energy-indicator:nth-child(5) .indicator-energy, .class-energy-indicator:nth-child(6) .indicator-energy {
+  left: 0;
+}
+.class-energy-indicator:nth-child(1) .indicator-energy:before, .class-energy-indicator:nth-child(2) .indicator-energy:before, .class-energy-indicator:nth-child(3) .indicator-energy:before, .class-energy-indicator:nth-child(4) .indicator-energy:before, .class-energy-indicator:nth-child(5) .indicator-energy:before, .class-energy-indicator:nth-child(6) .indicator-energy:before {
+  right: auto;
+  left: 0;
+  border-right: 10px solid transparent;
+}
+
+.class-energy-indicator:nth-child(7) .indicator-energy, .class-energy-indicator:nth-child(8) .indicator-energy, .class-energy-indicator:nth-child(9) .indicator-energy, .class-energy-indicator:nth-child(10) .indicator-energy, .class-energy-indicator:nth-child(11) .indicator-energy, .class-energy-indicator:nth-child(12) .indicator-energy {
+  right: 0;
+}
+.class-energy-indicator:nth-child(7) .indicator-energy:before, .class-energy-indicator:nth-child(8) .indicator-energy:before, .class-energy-indicator:nth-child(9) .indicator-energy:before, .class-energy-indicator:nth-child(10) .indicator-energy:before, .class-energy-indicator:nth-child(11) .indicator-energy:before, .class-energy-indicator:nth-child(12) .indicator-energy:before {
+  right: 0;
+  left: auto;
+  border-left: 10px solid transparent;
+}

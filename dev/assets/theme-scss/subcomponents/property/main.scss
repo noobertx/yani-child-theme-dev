@@ -1,0 +1,118 @@
+/* property title
+/* ------------------------------------------------------------------------ */
+.property-wrap .breadcrumb-wrap {
+  -webkit-box-flex: 1 !important;
+      -ms-flex-positive: 1 !important;
+          flex-grow: 1 !important;
+}
+@media (max-width: 767.98px) {
+  .property-wrap .page-title-wrap {
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .property-wrap .page-title-wrap .page-title {
+    max-width: 500px;
+  }
+}
+@media (min-width: 992px) {
+  .property-wrap .page-title-wrap .page-title {
+    max-width: 640px;
+  }
+}
+@media (min-width: 1200px) {
+  .property-wrap .page-title-wrap .page-title {
+    max-width: 800px;
+  }
+}
+
+.property-title-price-wrap {
+  margin-top: 15px;
+}
+
+.page-title-wrap .item-price-wrap {
+  text-align: right;
+  top: 3px;
+}
+.page-title-wrap .item-price-wrap .item-price {
+  font-size: 30px;
+  margin-bottom: 7px;
+}
+@media (max-width: 991.98px) {
+  .page-title-wrap .item-price-wrap .item-price {
+    font-size: 24px;
+  }
+}
+.page-title-wrap .item-price-wrap .item-sub-price {
+  font-size: 18px;
+  font-weight: 300;
+  color: #636363;
+}
+@media (max-width: 991.98px) {
+  .page-title-wrap .item-price-wrap .item-sub-price {
+    font-size: 16px;
+  }
+}
+.page-title-wrap .labels-wrap {
+  -webkit-box-flex: 1 !important;
+      -ms-flex-positive: 1 !important;
+          flex-grow: 1 !important;
+  top: -1px;
+}
+.page-title-wrap .label {
+  font-size: 12px;
+  padding: 7px 10px 6px;
+  margin-right: 5px;
+}
+@media (max-width: 991.98px) {
+  .page-title-wrap .label {
+    font-size: 10px;
+    line-height: 12px;
+    padding: 4px 6px;
+    margin-right: 5px;
+  }
+}
+.page-title-wrap .page-title {
+  margin-right: 10px;
+}
+.page-title-wrap .page-title .label-featured {
+  margin-top: 1px;
+}
+@media (max-width: 991.98px) {
+  .page-title-wrap .page-title h1 {
+    font-size: 24px;
+  }
+}
+.page-title-wrap .item-address {
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 7px;
+}
+@media (max-width: 767.98px) {
+  .page-title-wrap .item-address {
+    font-size: 14px;
+    top: -9px;
+  }
+}
+.page-title-wrap .item-tool span {
+  color: #000;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+.page-title-wrap .item-tool span:hover {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #fff;
+}
+
+.property-tools {
+  margin-bottom: 5px;
+}
+.property-tools .btn {
+  line-height: 32px;
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.property-labels-wrap {
+  margin: 10px 0 12px;
+}

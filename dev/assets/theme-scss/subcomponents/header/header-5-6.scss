@@ -1,0 +1,15 @@
+.header-v5 .logo,
+.header-v6 .logo {
+  text-align: center;
+  margin-right: 0;
+}
+
+.header-v5 .header-social-icons {
+  padding: 0;
+}
+.header-v5 .header-social-icons,
+.header-v5 .logo,
+.header-v5 .login-register,
+.header-v5 .logged-in-nav-wrap {
+  width: calc(100% / 3);
+}

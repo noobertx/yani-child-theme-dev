@@ -1,0 +1,52 @@
+.dashboard-property-search-wrap {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #dce0e0;
+}
+@media (max-width: 991.98px) {
+  .dashboard-property-search-wrap {
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dashboard-property-search-wrap > .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: block !important;
+  }
+}
+
+.dashboard-property-search {
+  max-width: 400px;
+}
+@media (max-width: 991.98px) {
+  .dashboard-property-search {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .dashboard-property-search {
+    max-width: 100%;
+  }
+}
+.dashboard-property-search .btn-search {
+  border-radius: 0 4px 4px 0;
+}
+.dashboard-property-search .form-control {
+  border-radius: 4px 0 0 4px;
+}
+
+@media (max-width: 767.98px) {
+  .dashboard-property-sort-by {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+@media (max-width: 767.98px) {
+  .dashboard-property-sort-by :not(.input-group) > .bootstrap-select.form-control:not([class*=col-]) {
+    width: auto;
+  }
+}

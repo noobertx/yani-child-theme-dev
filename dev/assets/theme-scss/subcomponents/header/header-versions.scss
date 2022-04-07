@@ -1,0 +1,16 @@
+.header-v2 .navbar-nav > li,
+.header-v3 .navbar-nav > li,
+.header-v5 .navbar-nav > li {
+  border-right: 1px solid;
+}
+.header-v2 .navbar-nav > li:first-of-type,
+.header-v3 .navbar-nav > li:first-of-type,
+.header-v5 .navbar-nav > li:first-of-type {
+  border-left: 1px solid;
+}
+.header-v2 .header-bottom,
+.header-v3 .header-bottom,
+.header-v5 .header-bottom {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}

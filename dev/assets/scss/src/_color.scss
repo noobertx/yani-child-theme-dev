@@ -1,0 +1,49 @@
+.info {   color: var(--color-theme-info)!important; }
+.primary {   color: var(--color-theme-primary)!important; }
+.secondary {   color: var(--color-theme-secondary)!important; }
+.success {   color: var(--color-theme-success)!important; }
+.warning {   color: var(--color-theme-warning)!important; }
+.danger {   color: var(--color-theme-danger)!important; }
+.secondary {   color: var(--color-theme-secondary)!important; }
+.accent {   color: var(--color-theme-accent)!important; }
+.dark {   color: var(--color-theme-dark)!important; }
+.light {   color: var(--color-theme-light)!important; }
+.white {   color: var(--color-theme-white)!important; }
+
+.bg-info {   background-color: var(--color-theme-info)!important; }
+.bg-primary {   background-color: var(--color-theme-primary)!important; }
+.bg-secondary {   background-color: var(--color-theme-secondary)!important; }
+.bg-success {   background-color: var(--color-theme-success)!important; }
+.bg-warning {   background-color: var(--color-theme-warning)!important; }
+.bg-danger {   background-color: var(--color-theme-danger)!important; }
+.bg-secondary {   background-color: var(--color-theme-secondary)!important; }
+.bg-accent {   background-color: var(--color-theme-accent)!important; }
+.bg-dark {   background-color: var(--color-theme-dark)!important; }
+.bg-light {   background-color: var(--color-theme-light)!important; }
+.bg-white {   background-color: var(--color-theme-white)!important; }
+
+.inverted{
+	&.info {   background-color: var(--color-theme-info)!important; }
+	&.primary {   background-color: var(--color-theme-primary)!important; }
+	&.secondary {   background-color: var(--color-theme-secondary)!important; }
+	&.success {   background-color: var(--color-theme-success)!important; }
+	&.warning {   background-color: var(--color-theme-warning)!important; }
+	&.danger {   background-color: var(--color-theme-danger)!important; }
+	&.secondary {   background-color: var(--color-theme-secondary)!important; }
+	&.accent {   background-color: var(--color-theme-accent)!important; }
+	&.dark {   background-color: var(--color-theme-dark)!important; }
+	&.light {   background-color: var(--color-theme-light)!important; }
+	&.white {   background-color: var(--color-theme-white)!important; }
+
+	&.bg-info {   color: var(--color-theme-info)!important; }
+	&.bg-primary {   color: var(--color-theme-primary)!important; }
+	&.bg-secondary {   color: var(--color-theme-secondary)!important; }
+	&.bg-success {   color: var(--color-theme-success)!important; }
+	&.bg-warning {   color: var(--color-theme-warning)!important; }
+	&.bg-danger {   color: var(--color-theme-danger)!important; }
+	&.bg-secondary {   color: var(--color-theme-secondary)!important; }
+	&.bg-accent {   color: var(--color-theme-accent)!important; }
+	&.bg-dark {   color: var(--color-theme-dark)!important; }
+	&.bg-light {   color: var(--color-theme-light)!important; }
+	&.bg-white {   color: var(--color-theme-white)!important; }
+}

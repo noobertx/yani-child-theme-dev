@@ -1,0 +1,38 @@
+.dashboard-side-menu-wrap .side-menu {
+  line-height: 50px;
+}
+.dashboard-side-menu-wrap .side-menu .side-menu-dropdown {
+  padding-left: 36px;
+  line-height: 30px;
+  margin: 10px 0;
+}
+.dashboard-side-menu-wrap .side-menu .side-menu-dropdown .side-menu-item i {
+  font-size: 10px;
+  top: -1px;
+}
+.dashboard-side-menu-wrap .side-menu .side-menu-parent-selected .side-menu-dropdown {
+  display: block;
+}
+
+.dashboard-logo-wrap .dashboard-notification-wrap {
+  color: #fff;
+}
+
+.notification-circle {
+  width: 8px;
+  height: 8px;
+  background-color: #c31b1b;
+  border: 1px solid #fff;
+}
+
+.dashboard-notification-wrap .notification-circle {
+  top: 2px;
+  left: 6px;
+}
+
+.side-menu-item .notification-circle {
+  margin-top: 21px;
+}
+.side-menu-item .side-menu-item .notification-circle {
+  margin-top: 11px;
+}

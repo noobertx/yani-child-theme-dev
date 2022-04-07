@@ -1,0 +1,39 @@
+.btn-bg-windows:before, .btn-bg-android:before, .btn-bg-apple:before, .btn-bg-email:before, .btn-bg-rss:before, .btn-bg-tumblr:before, .btn-bg-vimeo:before, .btn-bg-flickr:before, .btn-bg-foursquare:before, .btn-bg-dribbble:before, .btn-bg-youtube:before, .btn-bg-linkedin:before, .btn-bg-google-plus:before, .btn-bg-instagram:before, .btn-bg-pinterest:before, .btn-bg-twitter:before, .btn-bg-facebook:before {
+  -webkit-transition: all 0.2s ease-out 0s;
+  -o-transition: all 0.2s ease-out 0s;
+  transition: all 0.2s ease-out 0s;
+  -o-transition-delay: 0.1s;
+     transition-delay: 0.1s;
+  /* delays for 1 second */
+  -webkit-transition-delay: 0.1s;
+  /* for Safari & Chrome */
+}
+
+.btn {
+  -webkit-transition: "background-color" 0.2s;
+  -o-transition: "background-color" 0.2s;
+  transition: "background-color" 0.2s;
+  -webkit-transition: "border-color" 0.2s;
+  -o-transition: "border-color" 0.2s;
+  transition: "border-color" 0.2s;
+  -webkit-transition: "color" 0.2s;
+  -o-transition: "color" 0.2s;
+  transition: "color" 0.2s;
+}
+
+.team-content-wrap, .agent-item,
+.text-with-icon-item-v1, .dashboard-slide-panel-wrap, .dashboard-main-wrap, .lightbox-form-wrap, .property-lightbox .modal, .review-like .review-like-button a:hover,
+.review-like .review-dislike-button a:hover, .item-wrap-v6 .item-tools, .item-tool > span, .overlay-wrap, .logged-in-nav, .main-nav .dropdown-menu, .control__indicator, button, .hover-effect:hover:before,
+.hover-effect-flat:hover:before, .hover-effect:before,
+.hover-effect-flat:before, .hover-effect,
+.hover-effect-flat, .opacity-02, a {
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.overlay-search-advanced-module.open, .overlay-search-advanced-module {
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+}

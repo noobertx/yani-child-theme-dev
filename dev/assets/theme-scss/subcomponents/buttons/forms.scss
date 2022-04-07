@@ -1,0 +1,29 @@
+.form-control {
+  height: 42px;
+}
+
+.form-control {
+  font-weight: 400;
+  border: 1px solid;
+  border-color: #dce0e0;
+}
+.form-control .btn {
+  border: 1px solid;
+  border-color: #dce0e0;
+}
+
+.input-group-text {
+  background-color: #fff;
+  border: 1px solid #dce0e0;
+  width: 42px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #a1a7a8;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: rgba(220, 224, 224, 0.4);
+}

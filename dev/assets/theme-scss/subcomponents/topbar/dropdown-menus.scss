@@ -1,0 +1,28 @@
+.switcher-wrap .btn,
+.top-bar-wrap .btn {
+  line-height: 33px;
+}
+.switcher-wrap .btn:after,
+.top-bar-wrap .btn:after {
+  margin-left: 10px;
+}
+.switcher-wrap .dropdown-menu,
+.top-bar-wrap .dropdown-menu {
+  padding: 5px 18px;
+  border: none;
+  border-radius: 0 0 4px 4px;
+  margin-top: 0;
+  max-width: 150px;
+}
+.switcher-wrap .dropdown-menu li,
+.top-bar-wrap .dropdown-menu li {
+  cursor: pointer;
+  padding: 5px 0;
+}
+.top-bar-left-wrap .btn {
+  margin-right: 10px;
+}
+
+.top-bar-right-wrap .btn {
+  margin-left: 10px;
+}

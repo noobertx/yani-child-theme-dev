@@ -1,0 +1,18 @@
+.wprig-accordion-item {	
+	.wprig-accordion-panel{
+		padding: 10px 20px;
+		color: var(--color-theme-primary);
+		border: 1px solid ;
+	}
+	.wprig-accordion-body{
+		padding: 10px 20px;
+		color: var(--grey-dark-two);
+	}
+	&.wprig-accordion-active{
+		.wprig-accordion-panel{
+			background: var(--color-theme-primary);
+			color: var(--color-theme-white);
+			border: 1px solid var(--color-theme-primary);
+		}
+	}
+}

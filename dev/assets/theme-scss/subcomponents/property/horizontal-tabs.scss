@@ -1,0 +1,23 @@
+@media (max-width: 767.98px) {
+  .property-view .listing-tabs {
+    margin-top: 0;
+    border-top: 1px solid #dce0e0;
+  }
+}
+@media (max-width: 575px) {
+  .property-view .listing-tabs .nav-tabs .nav-item {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
+.property-view .listing-tabs .nav-tabs .nav-link {
+  min-width: auto;
+}
+
+.tab-pane .block-wrap {
+  margin-top: 0;
+}
+
+.horizontal-listing-tabs {
+  margin-top: 30px;
+}

@@ -1,0 +1,17 @@
+.widget-instagram-slider .slick-dotted.slick-slider,
+.widget-featured-property-slider-wrap .slick-dotted.slick-slider {
+  margin-bottom: 20px;
+}
+.widget-instagram-slider .slick-prev,
+.widget-instagram-slider .slick-next,
+.widget-featured-property-slider-wrap .slick-prev,
+.widget-featured-property-slider-wrap .slick-next {
+  height: 20px;
+  width: 20px;
+}
+.widget-instagram-slider .slick-prev:before,
+.widget-instagram-slider .slick-next:before,
+.widget-featured-property-slider-wrap .slick-prev:before,
+.widget-featured-property-slider-wrap .slick-next:before {
+  font-size: 12px;
+}

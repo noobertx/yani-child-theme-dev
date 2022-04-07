@@ -1,0 +1,16 @@
+.login-form-page-wrap {
+  max-width: 480px;
+  margin: 0 auto 40px;
+}
+@media (max-width: 767.98px) {
+  .login-form-page-wrap {
+    padding: 20px;
+  }
+}
+.login-form-page-wrap .nav-tabs {
+  border-bottom: none;
+}
+.login-form-page-wrap .nav-tabs .nav-link.active, .login-form-page-wrap .nav-tabs .nav-link:hover {
+  background-color: transparent;
+  border-color: transparent;
+}

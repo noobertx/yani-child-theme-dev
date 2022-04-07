@@ -1,0 +1,66 @@
+.bootstrap-select .dropdown-toggle:focus,
+.bootstrap-select > select.mobile-device:focus + .dropdown-toggle,
+.form-control:focus,
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show > .btn-light.dropdown-toggle:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.bootstrap-select.show-tick .dropdown-menu .selected span.check-mark {
+  top: 10px;
+}
+
+.bootstrap-select .bs-ok-default:after,
+.bootstrap-select .dropdown-toggle::after {
+  font-family: "yani-iconfont";
+  border-style: none;
+}
+
+.bootstrap-select .dropdown-toggle::after {
+  content: "";
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.bootstrap-select .bs-ok-default:after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  -webkit-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.bootstrap-select > .dropdown-toggle:after {
+  margin-top: 0;
+}
+
+.bootstrap-select .dropdown-menu.inner {
+  text-transform: none;
+}
+
+.actions-btn {
+  height: auto;
+}
+
+.bootstrap-select .btn {
+  font-weight: 400;
+}
+
+.dropdown-toggle::after {
+  margin-left: 15px;
+}
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:active,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:focus,
+.bootstrap-select > .dropdown-toggle.bs-placeholder:hover {
+  color: #a1a7a8;
+}
+
+.bt-full-width-content-wrap {
+  margin-bottom: 30px;
+}

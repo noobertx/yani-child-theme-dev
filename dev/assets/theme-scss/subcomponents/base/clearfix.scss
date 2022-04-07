@@ -1,0 +1,14 @@
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li, .widget-featured-property, .widget-contact-us li, .upload-gallery-thumb-buttons, .page-content-wrap .gallery,
+.post-content-wrap .gallery, .what-nearby dd {
+  *zoom: 1;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li:before, .widget-featured-property:before, .widget-contact-us li:before, .upload-gallery-thumb-buttons:before, .page-content-wrap .gallery:before,
+.post-content-wrap .gallery:before, .what-nearby dd:before, .widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li:after, .widget-featured-property:after, .widget-contact-us li:after, .upload-gallery-thumb-buttons:after, .page-content-wrap .gallery:after,
+.post-content-wrap .gallery:after, .what-nearby dd:after {
+  content: " ";
+  width: 100%;
+}
+.widget ul:not(.item-amenities):not(.item-price-wrap):not(.contact-list):not(.dropdown-menu):not(.nav-tabs) li:after, .widget-featured-property:after, .widget-contact-us li:after, .upload-gallery-thumb-buttons:after, .page-content-wrap .gallery:after,
+.post-content-wrap .gallery:after, .what-nearby dd:after {
+  clear: both;
+}

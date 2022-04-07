@@ -1,0 +1,19 @@
+.dashaboard-snake-nav {
+  border-top: 1px solid #dce0e0;
+  background-color: #fff;
+}
+.dashaboard-snake-nav .step-block {
+  -ms-flex-preferred-size: calc(100% / 3);
+      flex-basis: calc(100% / 3);
+  border-bottom: 4px solid #dce0e0;
+  padding: 15px 0;
+}
+@media (max-width: 767.98px) {
+  .dashaboard-snake-nav .step-block {
+    padding: 5px;
+    font-size: 12px;
+  }
+}
+.dashaboard-snake-nav .step-block:not(.active) {
+  color: #636363;
+}

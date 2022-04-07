@@ -1,0 +1,64 @@
+.map-arrows-actions,
+.map-next-prev-actions,
+.map-zoom-actions {
+  font-size: 0;
+}
+
+.map-arrows-actions {
+  top: 20px;
+  left: 20px;
+}
+
+.map-next-prev-actions {
+  top: 20px;
+  right: 20px;
+}
+
+.map-zoom-actions {
+  right: 20px;
+  bottom: 20px;
+}
+
+.map-btn {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 29px;
+  height: 30px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+}
+@media (max-width: 575.98px) {
+  .map-btn span {
+    display: none;
+  }
+}
+.map-btn:hover {
+  background-color: black;
+}
+.map-btn + .map-btn {
+  margin-left: 3px;
+}
+.map-btn .yani-icon {
+  font-weight: 700;
+}
+
+.map-search[style] {
+  top: 20px !important;
+  left: 82px !important;
+}
+
+.map-search {
+  font-size: 14px;
+  width: 188px;
+  height: 32px;
+  margin-left: 3px;
+  padding: 0 8px;
+  color: #000;
+  border: 1px solid #dce0e0;
+  background-color: white;
+}

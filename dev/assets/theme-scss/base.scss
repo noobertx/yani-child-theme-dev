@@ -1,0 +1,174 @@
+@import './subcomponents/base/width.scss';
+
+
+
+/* positions
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/positions.scss';
+
+
+/* displays
+/* ------------------------------------------------------------------------ */
+
+
+/* backgrounds
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/backgrounds.scss';
+
+/* borders
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/borders.scss';
+
+
+/* margins
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/margins.scss';
+
+
+/* paddings
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/paddings.scss';
+
+
+/* floats
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/floats.scss';
+
+
+/* aligns
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/aligns.scss';
+
+
+/* position
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/position.scss';
+
+/* z-index
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/z-index.scss';
+
+/* text colors
+/* ------------------------------------------------------------------------ */
+/* wraps
+/* ------------------------------------------------------------------------ */
+/* list
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/list.scss';
+
+/* box-shadow
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/box-shadow.scss';
+
+
+/* ellipsis
+/* ------------------------------------------------------------------------ */
+.agent-phone.agent-phone-hidden, .grid-view .item-footer .item-author, .item-title {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+/* font-weight
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/font-weight.scss';
+
+/* clarfix
+/* ----------------------------------------------------------- */
+@import './subcomponents/base/clearfix.scss';
+
+
+/* Animations
+/* ----------------------------------------------------------- */
+@import './subcomponents/base/animations.scss';
+
+/* bounce
+/* ----------------------------------------------------------- */
+@import './subcomponents/base/bounce.scss';
+
+/* tags
+/* ------------------------------------------------------------------------ */
+
+@import './subcomponents/base/tags.scss';
+
+/* opacity
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/opacity.scss';
+
+
+/* colors
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/colors.scss';
+
+/* margins
+/* ------------------------------------------------------------------------ */
+/* font sizes
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/font-size.scss';
+/* heights
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/height.scss';
+
+/* separator
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/separator.scss';
+
+
+/* hover effects
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/hover-effects.scss';
+/* labels
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/label.scss';
+
+/* tooltip
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/tooltip.scss';
+
+
+/* display
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/display.scss';
+
+/* visibility
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/visibility.scss';
+
+
+
+
+/* content & sidebar order
+/* ------------------------------------------------------------------------ */
+@media (min-width: 992px) {
+  .wrap-order-first {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media (min-width: 992px) {
+  .wrap-order-last {
+    -webkit-box-ordinal-group: 14;
+        -ms-flex-order: 13;
+            order: 13;
+  }
+}
+
+/* spinner
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/spinner.scss';
+
+/* general loading
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/general-lading.scss';
+
+/* gallery sizes
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/gallery-sizes.scss';
+
+
+/* hidden elements
+/* ------------------------------------------------------------------------ */
+@import './subcomponents/base/hidden-elelemts.scss';

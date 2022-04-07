@@ -1,0 +1,72 @@
+.agent-list-wrap {
+  padding: 30px;
+  background-color: #fff;
+}
+@media (max-width: 575px) {
+  .agent-list-wrap {
+    padding: 20px;
+  }
+}
+.agent-list-wrap .agent-list-image {
+  margin-right: 30px;
+  max-width: 240px;
+}
+@media (max-width: 767.98px) {
+  .agent-list-wrap .agent-list-image {
+    max-width: 120px;
+  }
+}
+@media (max-width: 575px) {
+  .agent-list-wrap .agent-list-image {
+    margin-right: 20px;
+    max-width: 80px;
+  }
+}
+.agent-list-wrap .agent-list-position {
+  color: #636363;
+}
+@media (max-width: 575px) {
+  .agent-list-wrap .agent-list-position {
+    margin-top: 5px;
+  }
+}
+.agent-list-wrap .agent-list-content h2 {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  margin-right: 5px;
+}
+@media (max-width: 575px) {
+  .agent-list-wrap .agent-list-content h2 {
+    font-size: 16px;
+  }
+}
+.agent-list-wrap .agent-list-contact li {
+  clear: both;
+  border-bottom: 1px solid #dce0e0;
+  line-height: 30px;
+}
+@media (max-width: 767.98px) {
+  .agent-list-wrap .agent-social-media {
+    margin-bottom: 10px;
+  }
+}
+.agent-list-wrap .agent-social-media span {
+  margin-right: 3px;
+}
+
+.agent-list-wrap .agent-list-contact li.email,
+.agent-list-wrap .agent-list-contact li.email a {
+  white-space: nowrap;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+}
+
+@media (max-width: 767.98px) {
+  .agent-list-wrap .agent-list-contact li.email a {
+    display: inline-block;
+    max-width: 150px;
+  }
+}

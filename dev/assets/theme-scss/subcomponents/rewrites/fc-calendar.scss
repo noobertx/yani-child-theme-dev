@@ -1,0 +1,51 @@
+.fc-event, .fc-event:hover {
+  color: #fff !important;
+}
+
+.fc-unthemed th {
+  background-color: transparent;
+  border-color: transparent;
+  color: #111313;
+  padding: 0 0 20px;
+}
+
+.fc-head .fc-head-container,
+.fc-unthemed thead {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.fc-head .fc-head-container {
+  border-bottom: 2px solid #dce0e0;
+}
+
+.fc-unthemed .fc-content,
+.fc-unthemed .fc-divider,
+.fc-unthemed .fc-list-heading td,
+.fc-unthemed .fc-list-view,
+.fc-unthemed .fc-popover,
+.fc-unthemed .fc-row,
+.fc-unthemed tbody,
+.fc-unthemed td {
+  border-color: #fff;
+}
+
+.fc-body {
+  background-color: #fff;
+}
+
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number {
+  margin-left: 10px;
+}
+
+.fc-unthemed td.fc-today {
+  background-color: #edfbf0;
+}
+
+.fc-event {
+  padding: 5px 10px;
+}
+
+.fc-day-grid-event {
+  margin: 2px 5px;
+}

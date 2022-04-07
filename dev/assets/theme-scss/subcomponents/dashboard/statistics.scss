@@ -1,0 +1,72 @@
+.chart-nav {
+  right: 45px;
+  top: 26px;
+}
+@media (max-width: 767.98px) {
+  .chart-nav {
+    position: relative;
+    right: auto;
+    top: auto;
+    margin-bottom: 10px;
+  }
+}
+.chart-nav .nav-pills .nav-link {
+  border-radius: 13px;
+  font-size: 12px;
+  padding: 0 10px;
+  border: 1px solid;
+  border-color: transparent;
+}
+
+.dashboard-statistic-block h3 {
+  font-size: 14px;
+}
+.dashboard-statistic-block .views-data-wrap {
+  text-align: center;
+}
+.dashboard-statistic-block .views-data {
+  font-size: 24px;
+  line-height: 34px;
+}
+.dashboard-statistic-block .views-text {
+  color: #636363;
+}
+
+.doughnut-chart-data {
+  padding: 0 0 0 15px;
+}
+.doughnut-chart-data li {
+  clear: both;
+}
+.doughnut-chart-data li:after {
+  width: calc(100% - 30px);
+  height: 1px;
+  border-bottom: 1px solid #dce0e0;
+  content: "";
+  top: 50%;
+  left: 30px;
+}
+.doughnut-chart-data span {
+  background-color: #fff;
+  padding-left: 10px;
+}
+.doughnut-chart-data strong {
+  background-color: #fff;
+  padding-right: 10px;
+}
+.doughnut-chart-data small {
+  color: #636363;
+}
+
+@media (max-width: 767.98px) {
+  .statistic-doughnut-chart {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .doughnut-chart-data {
+    padding: 0;
+    width: 100%;
+  }
+}

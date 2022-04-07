@@ -1,0 +1,63 @@
+.block-availability-calendars .weekdays li {
+  padding: 0;
+}
+.block-availability-calendars .days {
+  overflow: hidden;
+}
+.block-availability-calendars .days li {
+  padding: 0;
+  -webkit-box-shadow: 1px 1px 0px 0px #fff inset;
+          box-shadow: 1px 1px 0px 0px #fff inset;
+}
+.block-availability-calendars .days li:last-child {
+  overflow: hidden;
+}
+.block-availability-calendars .days li.day-booked:after, .block-availability-calendars .days li.day-pending:after, .block-availability-calendars .days li.day-available:after, .block-availability-calendars .days li.day-disabled:after, .block-availability-calendars .days li.day-unavailable:after {
+  content: "";
+  z-index: -2;
+  padding-bottom: 100%;
+  -webkit-transform: skewX(-45deg);
+      -ms-transform: skewX(-45deg);
+          transform: skewX(-45deg);
+  -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+          transform-origin: 0 100%;
+}
+.block-availability-calendars .days li.day-booked:after {
+  background-color: #fdd2d2;
+}
+.block-availability-calendars .days li.day-booked:nth-child(7n+1) {
+  background-color: #fdd2d2;
+}
+.block-availability-calendars .days li.day-booked:first-child {
+  background-color: #fdd2d2;
+}
+.block-availability-calendars .days li.day-pending:after {
+  background-color: #ffeedb;
+}
+.block-availability-calendars .days li.day-pending:nth-child(7n+1) {
+  background-color: #ffeedb;
+}
+.block-availability-calendars .days li.day-pending:first-child {
+  background-color: #ffeedb;
+}
+.block-availability-calendars .days li.day-available:after {
+  background-color: #e4f4d9;
+}
+.block-availability-calendars .days li.day-available:nth-child(7n+1) {
+  background-color: #e4f4d9;
+}
+.block-availability-calendars .days li.day-disabled:after, .block-availability-calendars .days li.day-unavailable:after {
+  background-color: #ecedef;
+}
+.block-availability-calendars .days li.day-disabled:nth-child(7n+1), .block-availability-calendars .days li.day-unavailable:nth-child(7n+1) {
+  background-color: #ecedef;
+}
+@media (max-width: 575.98px) {
+  .block-availability-calendars .days li .calendar-navigation {
+    display: block;
+  }
+}
+.block-availability-calendars .days li {
+  width: calc(100% / 7);
+}

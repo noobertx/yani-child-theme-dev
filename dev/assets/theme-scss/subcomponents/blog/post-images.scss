@@ -1,0 +1,43 @@
+.page-content-wrap .alignleft,
+.post-content-wrap .alignleft {
+  margin: 5px 20px 20px 0;
+}
+.page-content-wrap .alignright,
+.post-content-wrap .alignright {
+  margin: 5px 0 20px 20px;
+}
+.page-content-wrap .aligncenter,
+.post-content-wrap .aligncenter {
+  margin: 5px auto 20px auto;
+}
+.page-content-wrap .wp-caption img,
+.post-content-wrap .wp-caption img {
+  width: auto;
+  max-width: 98.5%;
+  height: auto;
+  border: 0 none;
+}
+.page-content-wrap .wp-caption-text,
+.post-content-wrap .wp-caption-text {
+  font-style: italic;
+  font-size: 12px;
+}
+.gallery-item {
+  overflow: hidden;
+  margin: 0 4px 4px 0;
+}
+.gallery-item img {
+  height: auto;
+}
+
+.gallery-columns-2 .gallery-item {
+  width: calc(50% - 4px);
+}
+
+.gallery-columns-3 .gallery-item {
+  width: calc(33.3333% - 4px);
+}
+
+.gallery-columns-4 .gallery-item {
+  width: calc(25% - 4px);
+}

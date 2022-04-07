@@ -1,0 +1,18 @@
+ul.products {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    &.columns-4 li.product {
+    width: 25%;
+	}
+
+	& > li.product{
+		position: relative;
+		.onsale {
+		    position: absolute;
+		    padding: 10px;
+		    background: var(--color-theme-primary);
+		    color: var(--color-theme-light);
+		}
+	}
+}

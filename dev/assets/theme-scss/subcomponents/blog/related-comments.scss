@@ -1,0 +1,29 @@
+.related-posts-wrap h2,
+.post-comment-form-wrap h2 {
+  font-size: 18px;
+}
+
+.post-comment-wrap h3 {
+  font-size: 18px;
+}
+.post-comment-wrap .comment ul {
+  padding-left: 100px;
+}
+@media (max-width: 767.98px) {
+  .post-comment-wrap .comment ul {
+    padding-left: 40px;
+  }
+}
+
+.author-comment {
+  background-color: #fff;
+}
+
+.related-posts-wrap .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.related-posts-wrap .row .col-md-4 {
+  padding-right: 5px;
+  padding-left: 5px;
+}

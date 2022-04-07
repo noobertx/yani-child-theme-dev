@@ -1,0 +1,131 @@
+.property-review-wrap {
+  margin-top: 40px;
+}
+@media (max-width: 767.98px) {
+  .property-review-wrap {
+    padding: 0 30px;
+  }
+}
+.property-review-wrap .review-title-wrap {
+  padding-bottom: 10px;
+  border-bottom: none;
+  white-space: nowrap;
+}
+@media (max-width: 767.98px) {
+  .property-review-wrap .review-title-wrap {
+    display: block !important;
+  }
+}
+@media (max-width: 767.98px) {
+  .property-review-wrap .review-title-wrap h2 {
+    padding-right: 10px;
+    float: left;
+  }
+}
+.property-review-wrap .review-title-wrap .rating-score-wrap {
+  padding-top: 4px;
+}
+@media (max-width: 767.98px) {
+  .property-review-wrap .review-title-wrap .rating-score-wrap {
+    float: left;
+    width: auto;
+  }
+}
+.property-review-wrap .review-title-wrap .sort-by {
+  margin-right: 10px;
+}
+@media (max-width: 767.98px) {
+  .property-review-wrap .review-title-wrap .sort-by {
+    clear: both;
+    background: #fff;
+    margin-bottom: 40px;
+    margin-right: 0;
+    position: relative;
+    top: 20px;
+    padding: 0 10px;
+    border-radius: 4px;
+  }
+}
+.property-review-wrap .block-wrap {
+  border-top: none;
+}
+
+.rating-score-wrap {
+  padding-left: 10px;
+}
+@media (max-width: 767.98px) {
+  .rating-score-wrap {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.rating-score {
+  color: #636363;
+}
+
+.review-list-wrap {
+  margin: 30px 0 60px;
+}
+
+.property-review {
+  margin-bottom: 30px;
+}
+
+.review-title {
+  font-size: 16px;
+}
+@media (max-width: 767.98px) {
+  .review-title {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.review-message {
+  padding-left: 30px;
+}
+.review-message p {
+  margin: 10px 0 0;
+}
+@media (max-width: 767.98px) {
+  .review-message .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.review-date {
+  font-size: 12px;
+  margin: 5px 0 10px;
+}
+
+.review-like {
+  text-align: right;
+}
+.review-like .review-like-button,
+.review-like .review-dislike-button {
+  cursor: pointer;
+}
+.review-like .review-like-button,
+.review-like .review-like-button a {
+  color: #28a745;
+}
+.review-like .review-dislike-button,
+.review-like .review-dislike-button a {
+  color: #dc3545;
+}
+.review-like .review-like-button a:hover,
+.review-like .review-dislike-button a:hover {
+  top: -2px;
+}
+
+.likes-container-js .btn-loader:after {
+  border-color: #ff0000 transparent #008000 transparent;
+}
+
+.yani-load-more .btn-loader:after {
+  border-color: #000000 transparent #000000 transparent;
+}

@@ -1,0 +1,32 @@
+@import './src/_color';
+
+@import './blocks/accordion';
+@import './blocks/advance-header';
+@import './blocks/advance-list';
+@import './blocks/alert';
+@import './blocks/blocks';
+
+
+
+/* Form Styles */
+.wprig-form-control {
+    border: 1px solid;
+    color: var(--color-theme-dark);
+    border-radius: 5px;
+}
+
+.wprig-form-group-inner {
+    margin: 0 10px;
+}
+
+label.wprig-form-label {
+    padding: 10px 0;
+    display: block;
+}
+
+
+/*Testimonials*/
+.wprig-testimonial-ratings:before,
+.wprig-testimonial-ratings:after{
+	    font-family: "Font Awesome 5 Free"!important;
+}

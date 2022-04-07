@@ -1,0 +1,47 @@
+.control {
+  color: #a1a7a8;
+  min-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.control__indicator {
+  border: 1px solid #dce0e0;
+  border-radius: 2px;
+}
+
+.control--checkbox .control__indicator::after {
+  left: 6px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+}
+
+.control--radio .control__indicator::after {
+  left: 6px;
+  top: 6px;
+}
+
+.radio-tab {
+  padding: 8px 12px;
+  margin-bottom: 0;
+}
+.radio-tab .control__indicator {
+  left: auto;
+  right: 12px;
+  top: calc(50% - 10px);
+}
+.radio-tab .radio-tab-inner {
+  border: 1px solid #dce0e0;
+  border-radius: 4px;
+}
+
+input[type=radio],
+input[type=checkbox] {
+  margin: 6px 0 0;
+}
+
+label.control.control--checkbox.hz-checkbox-0 {
+  margin-top: 15px;
+}

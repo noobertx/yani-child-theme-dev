@@ -1,0 +1,15 @@
+.similar-property-wrap {
+  margin-top: 40px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #dce0e0;
+}
+@media (max-width: 767.98px) {
+  .similar-property-wrap {
+    padding: 0 30px 30px;
+  }
+}
+.similar-property-wrap .item-tools {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}

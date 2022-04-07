@@ -1,0 +1,27 @@
+.hz-item-gallery-js .listing-gallery-wrap .slick-arrow[style] {
+  display: none !important;
+}
+
+.hz-item-gallery-js:hover .listing-gallery-wrap .slick-arrow[style] {
+  display: block !important;
+}
+.hz-item-gallery-js:hover .listing-gallery-wrap .hover-effect:before,
+.hz-item-gallery-js:hover .listing-gallery-wrap .hover-effect-flat:before {
+  opacity: 0;
+}
+
+.hz-item-gallery-js .listing-gallery-wrap .slick-arrow {
+  background: none;
+}
+.hz-item-gallery-js .listing-gallery-wrap .slick-arrow:before {
+  font-size: 24px;
+  -webkit-text-stroke: 1px #fff;
+}
+.hz-item-gallery-js .listing-gallery-wrap .slick-prev {
+  text-shadow: 2px 0px 2px #000;
+  left: 5px;
+}
+.hz-item-gallery-js .listing-gallery-wrap .slick-next {
+  text-shadow: -2px 0px 2px #000;
+  right: 5px;
+}

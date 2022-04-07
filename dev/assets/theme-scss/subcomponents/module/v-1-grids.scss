@@ -1,0 +1,49 @@
+.grid-item {
+  margin-bottom: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.grid-item-v1 {
+  padding-bottom: calc(75% - 7.5px);
+}
+
+.grid-item-v2 {
+  padding-bottom: 100%;
+}
+
+.grid-item-v3 {
+  padding-bottom: calc(200% + 30px);
+}
+
+.grid-item-text-wrap {
+  padding: 30px;
+}
+
+.grid-item-subtitle {
+  color: #fff;
+  font-size: 12px;
+}
+
+.grid-item-title {
+  color: #fff;
+  font-size: 20px;
+}
+
+.grid-item-text-link {
+  color: #fff;
+  bottom: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.grid-item-icon {
+  color: #fff;
+  bottom: 30px;
+  right: 30px;
+}
+
+.elementor-widget-yani_elementor_grid_builder {
+  margin-bottom: 0 !important;
+}

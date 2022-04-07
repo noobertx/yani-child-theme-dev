@@ -1,0 +1,29 @@
+.property-navigation-wrap {
+  z-index: 9999;
+  font-weight: 500;
+  font-size: 13px;
+  background-color: #fff;
+}
+@media (max-width: 991.98px) {
+  .property-navigation-wrap {
+    display: none !important;
+  }
+}
+.property-navigation-wrap a {
+  padding: 15px 0px;
+  color: #222222;
+}
+.property-navigation-wrap a.active {
+  -webkit-box-shadow: inset 0 -3px #4cc6f4;
+          box-shadow: inset 0 -3px #4cc6f4;
+}
+
+body.admin-bar .property-navigation-wrap {
+  top: 32px;
+}
+
+@media screen and (max-width: 782px) {
+  body.admin-bar .property-navigation-wrap {
+    top: 46px;
+  }
+}

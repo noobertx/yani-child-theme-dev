@@ -1,0 +1,11 @@
+.item-wrap-v1 .item-short-description {
+  margin-bottom: 10px;
+}
+.item-wrap-v1 .item-address + .item-short-description {
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+.list-view .item-short-description {
+  display: none;
+}

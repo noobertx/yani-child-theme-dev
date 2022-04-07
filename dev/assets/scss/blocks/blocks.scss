@@ -1,0 +1,114 @@
+.wprig-block-testimonial,
+.wp-block-wprig-testimonial {
+    text-align: center;
+
+    .wprig-testimonial-ratings:before{
+		color: var(--color-theme-primary)
+	}
+
+	.wprig-testimonial-ratings:after{
+		color: var(--color-theme-primary)
+	}
+	.wprig-quote-icon{
+    	font-size:48px;
+    	color: var(--color-theme-accent);
+    	padding: 20px 0;
+	}
+	.wprig-testimonial-content {
+    	margin: 20px 0;
+	}
+
+	.wprig-testimonial-author {
+	    margin: 20px 0;
+	}
+	.wprig-testimonial-author-name {
+	    color: var(--color-theme-dark);
+	}
+	.wprig-testimonial-author-designation {
+	    color: var(--color-theme-secondary);
+	}
+	.wprig-image-placeholder.wprig-testimonial-avatar {
+	    font-size: 48px;
+	    padding: 20px;
+	    border-radius: 50%;
+	    background: var(--color-theme-dark);    
+	    color: var(--color-theme-light);
+	    margin: 0 20px;
+	    align-items: center;
+    	display: flex;
+	}
+}
+
+/* Team */
+.wprig-block-team.wprig-team-layout-1 .wprig-team-image-wrapper {
+    max-width:150px;
+}
+
+/* Infobox */
+.wprig-block-info-box.wprig-info-box-layout-1 ,
+.wprig-block-info-box.wprig-info-box-layout-2 ,
+.wprig-block-info-box.wprig-info-box-layout-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius:5px; 
+    box-shadow: 0 3px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    i.wprig-info-box-icon {
+    	font-size: 37px;
+    	color: var(--color-theme-secondary);
+	}
+
+	.wprig-info-box-media {
+    	max-width: 30%;
+	}
+
+	.wprig-media-has-bg {
+    	padding: 20px;
+    	background: var(--color-theme-primary);
+    	width: 90px!important;
+    	margin: 20px 0;
+    	border-radius: 50%;
+	}
+
+	.wprig-info-box-title {
+    	font-size: 23px;
+    	line-height: 30px;
+    	margin: 20px 0;
+	}
+
+	.wprig-info-box-content {
+    	font-size: 12px;
+    	margin: 20px 0;
+	}
+}
+
+.wprig-block-info-box.wprig-info-box-layout-2 {
+    flex-direction: row;
+    .wprig-info-box-media.wprig-media-has-bg{
+    	margin-right: 20px;
+    }
+}
+
+.wprig-block-info-box.wprig-info-box-layout-3 {
+    flex-direction: row-reverse;
+    .wprig-info-box-media.wprig-media-has-bg{
+    	margin-left: 20px;
+    }
+}
+
+/**/
+.kitchenist-banner h2.wprig-heading-selector {
+    font-size: 5em;
+    background: transparent;
+    color: var(--color-theme-light);
+}
+
+.btn{
+	padding: 10px;
+}
+.btn-block{
+	display:inline-block;
+}

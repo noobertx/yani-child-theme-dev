@@ -1,0 +1,119 @@
+.list-view .item-wrap {
+  padding: 8px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-wrap {
+    padding: 8px 8px 0;
+  }
+}
+.list-view .item-wrap.item-wrap-no-frame {
+  padding: 0;
+}
+.list-view .item-wrap.item-wrap-no-frame .hover-effect {
+  border-radius: 4px 0 0 4px;
+}
+@media (max-width: 767.98px) {
+  .list-view .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.list-view .item-header {
+  width: 254px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-header {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .list-view .item-header .item-price-wrap {
+    display: block;
+  }
+}
+@media (max-width: 767.98px) {
+  .list-view .item-header .labels-wrap {
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    right: 10px;
+  }
+}
+.list-view .item-body {
+  padding: 4px 20px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body {
+    width: 100%;
+    padding: 15px;
+  }
+}
+.list-view .item-body .item-title {
+  max-width: 250px;
+}
+@media (min-width: 1200px) {
+  .list-view .item-body .item-title {
+    max-width: 360px;
+  }
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body .item-title {
+    max-width: none;
+  }
+}
+.list-view .item-body .item-price-wrap {
+  top: 20px;
+  right: 20px;
+  text-align: right;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body .item-price-wrap {
+    display: none;
+  }
+}
+.list-view .item-body .labels-wrap {
+  margin-bottom: 15px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body .labels-wrap {
+    display: none;
+  }
+}
+.list-view .item-body .item-date {
+  margin-left: 20px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body .item-date {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .list-view .item-body .item-author {
+    display: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .list-view .item-footer {
+    display: block;
+    width: 100%;
+  }
+}
+.list-view .item-amenities {
+  margin-bottom: 5px;
+}
+@media (max-width: 767.98px) {
+  .list-view .item-amenities {
+    margin-bottom: 0;
+  }
+}
+.list-view .btn-item {
+  bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .list-view .btn-item {
+    bottom: 80px;
+  }
+}

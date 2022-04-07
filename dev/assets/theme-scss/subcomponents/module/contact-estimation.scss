@@ -1,0 +1,23 @@
+.contact-form-wrap,
+.estimation-form-wrap {
+  padding: 40px;
+  background-color: #fff;
+  margin-bottom: 30px;
+}
+@media (max-width: 767.98px) {
+  .contact-form-wrap,
+.estimation-form-wrap {
+    padding: 20px;
+  }
+}
+
+.contact-form-wrap p:last-of-type {
+  margin-bottom: 0;
+}
+
+.ele-form-messages {
+  margin-top: 10px;
+}
+.ele-form-messages .alert {
+  padding: 8px 10px 8px 10px;
+}

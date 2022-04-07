@@ -1,0 +1,157 @@
+/* item - grid view
+/* ----------------------------------------------------------- */
+.item-wrap {
+  padding: 8px 8px 0;
+}
+.item-wrap:focus {
+  outline: none;
+}
+
+.item-body {
+  padding: 20px;
+}
+
+.item-header {
+  max-width: 100%;
+  min-height: 1px;
+}
+
+.item-footer {
+  padding: 15px 24px;
+  border-top: 1px solid #dce0e0;
+}
+
+.label-featured {
+  top: 20px;
+  left: 20px;
+}
+
+.item-price-wrap {
+  bottom: 20px;
+  left: 20px;
+  color: #fff;
+  font-weight: 500;
+}
+.item-price-wrap .item-price {
+  font-size: 18px;
+}
+.item-price-wrap .item-sub-price {
+  font-size: 12px;
+}
+
+.item-tools {
+  bottom: 20px;
+  right: 20px;
+}
+
+.item-tool > span {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+.item-tool > span {
+  color: #fff;
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+.item-tool > span:hover {
+  background-color: rgba(0, 0, 0, 0.65);
+  color: #fff;
+}
+
+.item-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0 0 3px;
+}
+
+.item-address {
+  margin-bottom: 15px;
+  color: #636363;
+  font-size: 13px;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.item-amenities {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+.item-amenities li {
+  margin-right: 12px;
+  margin-bottom: 10px;
+}
+.item-amenities li .area_postfix {
+  font-size: 12px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.item-amenities .h-type span {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.item-amenities img {
+  display: inline-block !important;
+}
+
+.btn-item {
+  line-height: 30px;
+  padding: 0 10px;
+  bottom: 80px;
+  right: 20px;
+  height: 32px;
+}
+.btn-item.item-no-footer {
+  bottom: 20px;
+}
+@media (max-width: 767.98px) {
+  .btn-item {
+    display: none;
+  }
+}
+
+.item-author,
+.item-date,
+.item-author a {
+  color: #636363;
+  font-size: 12px;
+}
+.item-author i,
+.item-date i,
+.item-author a i {
+  margin-right: 5px;
+}
+
+/* item - grid view
+/* ----------------------------------------------------------- */
+.grid-view .item-wrap {
+  border-radius: 4px 4px 0 0;
+}
+.grid-view .item-wrap.item-wrap-no-frame {
+  padding: 0;
+}
+.grid-view .item-wrap.item-wrap-no-frame .hover-effect {
+  border-radius: 4px 4px 0 0;
+}
+.grid-view .d-flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.grid-view .labels-wrap {
+  top: 17px;
+  right: 20px;
+}
+.grid-view .item-footer {
+  border-radius: 0 0 4px 4px;
+}
+.grid-view .item-footer .item-author {
+  max-width: 50%;
+}

@@ -1,0 +1,30 @@
+.property-gallery-grid {
+  margin-top: 30px;
+}
+@media (max-width: 767.98px) {
+  .property-gallery-grid {
+    margin-top: 0;
+  }
+}
+.property-gallery-grid .gallery-grid-item {
+  max-width: calc(33.333333333333% - 1px);
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.property-gallery-grid .more-images {
+  background-color: #000;
+}
+.property-gallery-grid .more-images img {
+  opacity: 0.65;
+}
+.property-gallery-grid .more-images span {
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 300;
+}

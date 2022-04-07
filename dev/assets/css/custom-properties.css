@@ -1,0 +1,58 @@
+:root {
+    --global-font-color: #333;
+    --global-font-family: "Roboto", sans-serif;
+    --global-font-size: 20;
+    --global-font-line-height: 1.4;
+    --highlight-font-family: "Roboto", "Helvetica Neue", "Arial Narrow", sans-serif;
+    /*--highlight-font-family: "RocknRoll One", "Helvetica Neue", "Arial Narrow", sans-serif;*/
+    --content-width: 100vw;
+    --dropdown-symbol-width: 0.7em;
+
+    /* Custom editor colors */
+    --color-theme-primary: #006D77;
+    --color-theme-secondary: #83C5BE;
+    --color-theme-accent: #EDF6F9;
+    --color-theme-dark: #E29578;
+    --color-theme-light: #FFDDD2;
+    --color-theme-white: #EEEEEE;
+
+    --color-theme-default: #999;
+    --color-theme-info: #00bcd4;
+    --color-theme-success: #4caf50;
+    --color-theme-warning: #ff9800;
+    --color-theme-danger: #f44336;
+
+    --color-link: #0073aa;
+    --color-link-visited: #333;
+    --color-link-active: #00a0d2;
+
+    --color-quote-border: #000;
+    --color-quote-citation: #6c7781;
+
+    /* Custom editor font sizes */
+    /*--font-size-small: calc(16 / var(--global-font-size) * 1rem);*/
+    /*--font-size-regular: calc(var(--global-font-size) / 16 * 1rem);*/
+    /*--font-size-large: calc(36 / var(--global-font-size) * 1rem);*/
+    /*--font-size-larger: calc(48 / var(--global-font-size) * 1rem);*/
+
+    /**/
+    --grey-dark-key: #000;
+    --grey-dark-one: #121213;
+    --grey-dark-two: #494E51;
+    --grey-dark-three: #6B7074;
+    --grey-dark-six: #cecece;
+
+    --grey-mid: #C1C6C9;
+
+    --grey-light-one: #D3D7DA;
+    --grey-light-two: #F0F0F0;
+    --grey-light-three: #F9F9F9;
+    --shadow-light: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+
+    --s-regular: 400;
+    --p-medium: 500;
+    --p-bold: 700;
+
+    --cubic-easing: cubic-bezier(0.86, 0, 0.07, 1);
+    
+}

@@ -1,0 +1,24 @@
+.dashboard-slide-panel-wrap {
+  right: -500px;
+  padding: 30px;
+  background-color: #fff;
+  width: 500px;
+  border-left: 1px solid #dce0e0;
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+@media (max-width: 767.98px) {
+  .dashboard-slide-panel-wrap {
+    width: 320px;
+    right: -320px;
+  }
+}
+.dashboard-slide-panel-wrap h2,
+.dashboard-slide-panel-wrap h3 {
+  font-size: 18px;
+}
+.dashboard-slide-panel-wrap .open-close-slide-panel {
+  top: 20px;
+  right: 20px;
+  font-size: 24px;
+}

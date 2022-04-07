@@ -1,0 +1,200 @@
+/*!
+Theme Name: Yani Simple Theme
+Theme URI: https://github.com/noobertx/yani-theme/
+Author: Robert Talavera
+Author URI: https://github.com/noobertx/
+Description: A progressive simple theme development rig for WordPress and Woocommerce.
+Version: 1.0.2
+License: GNU General Public License v3.0 (or later)
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
+Text Domain: yani
+Tags: translation-ready, simple
+
+*/
+body{}
+.screen-reader-text{
+	display:none;
+}
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail{
+	max-width: 100%;
+	height: auto;
+}
+
+.content-area {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.comment__body>img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:1200px){	
+	.main-content {
+	    display: grid;
+	    grid-template-columns: 3fr 1fr;
+	    max-width: 1140px;
+	    margin: auto;
+	}
+
+	#header .navbar-expand-md .navbar-nav {
+    	margin: 0;
+	}
+
+	ul#menu-menu-1 {
+    margin: 0;
+	}
+	.comments,
+	.author-banner header,
+	.search-header,
+	.search-result-none,
+	.page-banner header,
+	article {
+    	max-width: 1140px;
+    	margin: auto;
+	}
+
+	.navigation-wrap {
+	    width: 88vw!important;
+	    margin: auto;
+	    display: flex;
+	}
+
+	.navigation-wrap .container-fluid {
+	    padding: 0;
+	}
+
+	section {
+    	margin: 70px 0;
+	}
+
+	section:first-child {
+    margin-top: 0;
+}
+
+	section>.container>h2 {
+    	margin-bottom: 35px;
+	}
+
+	section.page-content-wrapper {
+    	display: flex;
+    	margin: 0;
+	}
+	.author-card	 {
+	    display: flex;
+	    margin: 30px 0;
+	}
+
+	.author-avatar {
+	    margin-right: 20px;
+	}
+
+	.author-avatar__content {
+	    width: 100%;
+	}
+	.archive .has-sidebar main,
+	.author .has-sidebar main {
+    	width: 100%;
+	}
+
+	section.page-post-items {
+    	margin: 0;
+	}
+	.post__navigation{width:100%;}
+	.post-navigation__links {
+    	display: flex;
+    	width: 100%;
+    	justify-content: space-between;
+	}
+
+	.nav-links{
+		display: flex;
+		justify-content: center;
+	}
+
+
+.page-banner {
+    height: 50vh;
+    display: flex;
+    background:var(--color-theme-secondary);
+
+}
+
+.page-banner header{
+    display: flex;
+    align-items:center;
+
+	}
+
+	.page-banner header>img {
+    margin-right: 30px;
+}
+
+
+}
+
+
+a.cart-customlocation {
+    position: relative;
+}
+
+a.cart-customlocation .items {
+    position: absolute;
+    font-size: 12px;
+    left: 20px;
+    top: -10px;
+    background: red;
+    padding: 2px 5px;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.yani-account .dropdown-menu.show{
+	display: flex;
+	flex-direction: column;
+}
+
+
+section.main-slider .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+section.main-slider .slick-next{
+	right: 20px;
+	z-index: 9;
+}
+section.main-slider .slick-prev{
+	left: 20px;
+	z-index: 9;
+}
+
+section.main-slider .slick-prev:before, 
+section.main-slider .slick-next:before{
+	font-size: 30px;
+}
+
+.pagination-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.pagination .nav-links > * {
+    padding: 10px 20px;
+    text-align: center;
+    margin: 0 5;
+}
+
+a.page-numbers {
+    background: var(--color-theme-primary);
+    color: var(--color-theme-light);
+}
+

@@ -1,0 +1,40 @@
+.property-banner .nav {
+  top: 50px;
+  right: 50px;
+}
+.property-banner .nav .nav-link {
+  margin-left: 5px;
+  height: 48px;
+  width: 48px;
+  line-height: 48px;
+  font-size: 18px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+.property-banner .nav .nav-link.active {
+  color: #fff !important;
+}
+.property-banner .tab-pane {
+  background-size: cover;
+  background-position: center center;
+}
+@media (max-width: 767.98px) {
+  .property-banner .tab-pane {
+    height: 0;
+    padding-top: 75%;
+  }
+}
+
+.property-detail-v1 .property-banner .tab-pane {
+  height: 700px;
+}
+@media (max-width: 991.98px) {
+  .property-detail-v1 .property-banner .tab-pane {
+    height: 0;
+    padding-top: 75%;
+  }
+}
+
+.swipebox {
+  text-align: center;
+}

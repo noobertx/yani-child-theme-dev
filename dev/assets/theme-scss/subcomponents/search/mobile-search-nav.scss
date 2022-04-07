@@ -1,0 +1,103 @@
+.mobile-search-nav {
+  padding: 10px 0;
+}
+@media (max-width: 767.98px) {
+  .mobile-search-nav {
+    display: block;
+  }
+}
+
+.overlay-search-advanced-module {
+  visibility: hidden;
+  overflow-y: scroll;
+  -webkit-transform: translateY(100%);
+      -ms-transform: translateY(100%);
+          transform: translateY(100%);
+  -webkit-overflow-scrolling: touch;
+  z-index: 999;
+  padding: 15px 20px;
+}
+.overlay-search-advanced-module.open {
+  visibility: visible;
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+.overlay-search-advanced-module .flex-search {
+  padding: 0;
+}
+.overlay-search-advanced-module .row {
+  margin-right: -5px;
+  margin-left: -5px;
+}
+.overlay-search-advanced-module .row div[class^=col-] {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.overlay-search-advanced-module .form-group {
+  margin-bottom: 10px;
+}
+.overlay-search-advanced-module .search-title {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 5px 5px 20px;
+}
+.overlay-search-advanced-module .features-list-wrap {
+  padding-bottom: 20px;
+  text-align: center;
+}
+.overlay-search-advanced-module .features-list .control {
+  width: 49%;
+  text-align: left;
+}
+
+.overlay-search-module-close {
+  top: 8px;
+  right: 3px;
+}
+
+.overlay-search-advanced-module .range-text {
+  padding-top: 15px;
+  text-align: center;
+}
+.overlay-search-advanced-module .price-range-wrap {
+  padding: 0 0 30px;
+}
+.overlay-search-advanced-module .ui-slider-horizontal {
+  height: 48px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 25px;
+}
+.overlay-search-advanced-module .ui-slider-horizontal .ui-slider-range {
+  top: 50%;
+}
+.overlay-search-advanced-module .ui-slider .ui-slider-handle {
+  top: -1px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin-left: -49px;
+  border-radius: 25px;
+}
+.overlay-search-advanced-module .ui-slider .ui-slider-handle:first-of-type {
+  margin-left: -1px;
+}
+@media (max-width: 991.98px) {
+  .overlay-search-advanced-module .ui-slider .ui-slider-handle {
+    top: -21px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .overlay-search-advanced-module-v3 .filters-search-v3-wrap label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .overlay-search-advanced-module-v3 .filters-search-v3-wrap .size-calculator {
+    padding-left: 60px;
+  }
+}

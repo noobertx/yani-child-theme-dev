@@ -1,0 +1,73 @@
+.post-wrap,
+.author-detail-wrap,
+.post-comment-form-wrap {
+  background-color: #fff;
+}
+
+.post-inner-wrap,
+.post-footer-wrap,
+.post-header-wrap,
+.post-content-wrap,
+.author-detail-wrap,
+.post-comment-form-wrap,
+.author-comment {
+  padding: 40px;
+}
+@media (max-width: 767.98px) {
+  .post-inner-wrap,
+.post-footer-wrap,
+.post-header-wrap,
+.post-content-wrap,
+.author-detail-wrap,
+.post-comment-form-wrap,
+.author-comment {
+    padding: 20px;
+  }
+}
+
+.post-footer-wrap {
+  border-top: 1px solid #dce0e0;
+}
+@media (max-width: 767.98px) {
+  .post-footer-wrap .d-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .post-footer-wrap .author-meta {
+    margin-bottom: 30px;
+  }
+}
+
+.author-meta li:not(:last-child) {
+  margin-right: 15px;
+}
+@media (max-width: 767.98px) {
+  .author-meta li:not(:last-child) {
+    margin-right: 10px;
+  }
+}
+@media (max-width: 767.98px) {
+  .author-meta li:not(:last-child) img {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .post-title-wrap h1, .post-title-wrap h2 {
+    margin-bottom: 20px;
+  }
+}
+.post-title-wrap h1, .post-title-wrap h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.post-wrap img {
+  max-width: 100%;
+  height: auto;
+}

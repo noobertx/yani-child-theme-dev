@@ -1,0 +1,46 @@
+.banner-inner:before {
+  content: " ";
+  background-color: #000;
+  opacity: 0.35;
+}
+
+.banner-caption {
+  left: 50%;
+  top: 50%;
+  text-align: center;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.banner-caption .nav {
+  margin-bottom: -1px;
+}
+
+.banner-title {
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .banner-title {
+    font-size: 30px;
+    line-height: 30px;
+    margin-bottom: 10px;
+  }
+}
+
+.banner-subtitle {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  color: #fff;
+}
+@media (max-width: 767.98px) {
+  .banner-subtitle {
+    font-size: 18px;
+    line-height: 18px;
+    margin-bottom: 20px;
+  }
+}

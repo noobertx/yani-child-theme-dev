@@ -1,0 +1,25 @@
+.property-grid-item .item-wrap, .team-content-wrap-before, .agent-item,
+.text-with-icon-item-v1, .grid-item-text-wrap, .taxonomy-text-wrap, .dashboard-slide-panel-wrap, .activitiy-item, .recurring-payment-wrap, .doughnut-chart-data strong, .doughnut-chart-data span, .lightbox-gallery-wrap .btn-expand, .property-gallery-grid .more-images span, .mobile-property-form .close, .fw-property-documents-wrap h3,
+.fw-property-details-wrap h3, .property-detail-v2 #pills-gallery:before, .property-banner-trigger, .splash-page-footer, .map-arrows-actions,
+.map-next-prev-actions,
+.map-zoom-actions, .gm-ui-hover-effect, .item-wrap-v3 .item-amenities, .item-wrap-v3 .item-title, .grid-view .labels-wrap, .label-featured, .auto-complete .auto-complete-footer, .search-banner-wrap, .search-icon:before, .hover-effect:before,
+.hover-effect-flat:before {
+  z-index: 1;
+}
+
+.property-grid-item .property-grid-item-link, .blog-post-item-v2 .blog-post-content-wrap, .agent-item:hover,
+.text-with-icon-item-v1:hover, .price-table-module.featured, .widget-instagram-slider .slick-prev,
+.widget-instagram-slider .slick-next,
+.widget-featured-property-slider-wrap .slick-prev,
+.widget-featured-property-slider-wrap .slick-next, .left-calendar,
+.right-calendar, .property-banner .property-form-wrap, .property-banner .nav, .item-parallax-wrap, .item-listing-parallax-link, .item-tools, .item-price-wrap, .banner-caption, .nav-mobile .main-nav .nav-item a, .main-nav .nav-item, .header-transparent-wrap {
+  z-index: 2;
+}
+
+.property-wrap .item-tools, .mobile-map-switch, .search-expandable-wrap, .navi-user-mobile .notification-circle {
+  z-index: 3;
+}
+
+.property-lightbox .modal-footer, .property-lightbox .modal-header, .mobile-property-contact {
+  z-index: 5;
+}

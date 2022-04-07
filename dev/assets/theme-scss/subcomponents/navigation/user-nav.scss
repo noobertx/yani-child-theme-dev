@@ -1,0 +1,22 @@
+/* user nav
+/* ------------------------------------------------------------------------ */
+.navi-login-register .btn-create-listing {
+  margin: 10px;
+  text-align: center;
+}
+
+.nav-mobile .logged-in-nav {
+  visibility: visible;
+  opacity: 1;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 255px;
+}
+.nav-mobile .navi-login-register .btn-create-listing {
+  width: calc(100% - 20px);
+}
+
+.navi-user-mobile .notification-circle {
+  right: 20px;
+  top: 22px;
+}

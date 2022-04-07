@@ -1,0 +1,16 @@
+.dashboard-side-wrap {
+  z-index: 5;
+  overflow-y: scroll;
+  padding: 30px;
+  width: 240px;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+}
+.dashboard-side-wrap::-webkit-scrollbar {
+  width: 0 !important;
+}
+@media (max-width: 991.98px) {
+  .dashboard-side-wrap {
+    display: none;
+  }
+}

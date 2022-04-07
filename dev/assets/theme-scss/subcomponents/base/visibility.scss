@@ -1,0 +1,15 @@
+@media (max-width: 767.98px) {
+  .visible-on-mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .hidden-on-mobile {
+    display: none;
+  }
+}
+
+.no-wrap {
+  white-space: nowrap;
+}

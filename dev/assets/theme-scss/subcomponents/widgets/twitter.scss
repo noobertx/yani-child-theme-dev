@@ -1,0 +1,18 @@
+.tweet-icon {
+  color: #4099ff;
+  margin-right: 20px;
+}
+
+.tweet-slider .d-flex {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.tweet-slider .tweet-icon,
+.tweet-slider .tweet-content {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}

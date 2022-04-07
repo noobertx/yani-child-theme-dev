@@ -1,0 +1,23 @@
+.listing-slider-variable-width {
+  height: 600px;
+}
+@media (max-width: 767.98px) {
+  .listing-slider-variable-width {
+    height: 380px;
+  }
+}
+@media (max-width: 767.98px) {
+  .listing-slider-variable-width img {
+    height: 380px;
+  }
+}
+
+.slick-slide .hz-image-caption,
+.lslide .hz-image-caption {
+  background: rgba(255, 255, 255, 0.65);
+  color: #5c6872;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 12px;
+}

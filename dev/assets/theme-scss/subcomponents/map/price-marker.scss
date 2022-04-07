@@ -1,0 +1,74 @@
+.gm-marker {
+  color: #000;
+  border-radius: 30px;
+  line-height: 22px;
+  padding: 0 7px;
+  font-size: 12px;
+}
+
+.gm-marker {
+  background: #fff;
+  border: 1px solid #fff;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2) !important;
+          box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.gm-marker:after, .arrow_box:before {
+  top: 100%;
+  left: 50%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
+.gm-marker:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #fff;
+  border-width: 7px;
+  margin-left: -7px;
+}
+
+.gm-marker:before {
+  border-color: rgba(255, 255, 255, 0);
+  border-top-color: #fff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+
+.gm-marker.active, .gm-marker.hover-state {
+  background: #000;
+  color: #fff;
+}
+
+.gm-marker.active:after, .gm-marker.hover-state:after {
+  border-top-color: #000;
+}
+
+.gm-marker-price {
+  font-weight: 700;
+}
+
+.gm-marker-price:before {
+  content: "";
+  display: block;
+  height: 7px;
+  width: 10px;
+  position: absolute;
+  top: 26px;
+  left: calc(50% - 5px);
+  border-radius: 100%;
+}
+
+.gm-marker-price:after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 100%;
+  height: 4px;
+  width: 10px;
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(100% + 5px);
+}
